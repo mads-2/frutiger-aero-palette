@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gel Glass Wii Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #f8fafc;
+  --grid: rgba(0, 0, 0, 0.03);
+  --panel: rgba(255, 255, 255, 0.7);
+  --accent: rgba(180, 228, 255, 0.4);
+  --border: rgba(0, 0, 0, 0.06);
+  --shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  --radius: 14px;
+  --font: "Quicksand", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: #202430;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(to right, var(--grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+  background-size: 36px 36px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* clickable = purple */
+.tab, .btn { outline: 2px solid rgba(136, 85, 255, 0.5); }
+
+/* hoverable = grey */
+.object-slot, .color-bar { outline: 2px solid rgba(140, 140, 140, 0.3); }
+
+/* Tabs */
+.tabbar {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px 0;
+}
+.tab {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  min-width: 70px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+.tab:hover { background: rgba(255,255,255,0.9); transform: translateY(-2px); }
+.tab.active { background: #fff; box-shadow: var(--shadow); }
+
+/* full-name hint bar under tabs */
+#tab-hint {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2933;
+  background: rgba(255,255,255,0.6);
+  border-bottom: 1px solid rgba(0,0,0,0.03);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s;
+}
+#tab-hint.show { opacity: 1; }
+
+/* layout shell */
+.shell {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 0 24px 20px;
+  overflow: hidden;
+}
+
+/* panels */
+.left-panel, .right-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow);
+}
+
+.left-panel {
+  flex: 1;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+h1 {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* 3 × 4 ICON GRID */
+.object-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 34px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 24px;
+}
+.object-slot {
+  position: relative;
+  background: rgba(255,255,255,0.8);
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  max-height: 170px;
+  min-height: 150px;
+  transition: 0.15s ease;
+  overflow: hidden;
+}
+.object-slot:hover {
+  background: rgba(255,255,255,0.95);
+  transform: translateY(-3px);
+}
+.object-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #222;
+  background: rgba(255,255,255,0.75);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.object-slot:hover .object-label { opacity: 1; }
+
+/* Buttons */
+.download-panel {
+  display: flex;
+  gap: 12px;
+  justify-content: left;
+  padding-top: 6px;
+}
+.btn {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.15s ease;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+}
+.btn svg { width: 14px; height: 14px; fill: #333; opacity: 0.6; }
+.btn:hover { background: var(--accent); transform: translateY(-1px); }
+
+/* right panel (colors) */
+.right-panel {
+  width: 220px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto; /* scroll if many colors */
+}
+.color-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.color-bar {
+  height: 48px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #333;
+  transition: 0.15s ease;
+}
+.color-bar:hover { filter: brightness(1.1); transform: translateY(-2px); }
+
+/* bottom bar */
+.bottom-bar {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.65);
+  border-top: 1px solid var(--border);
+  border-radius: 0 0 var(--radius) var(--radius);
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 8px;
+  color: #333;
+}
+
+/* toast */
+#copy-toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(40,40,50,0.9);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+#copy-toast.show { opacity: 1; }
+</style>
+</head>
+
+<body>
+
+<!-- Tabs -->
+<div class="tabbar">
+  <div class="tab active" data-key="FA" data-full="Frutiger Aero">FA</div>
+  <div class="tab" data-key="D" data-full="DORFic">D</div>
+  <div class="tab" data-key="FM" data-full="Frutiger Metro">FM</div>
+  <div class="tab" data-key="FE" data-full="Frutiger Eco">FE</div>
+  <div class="tab" data-key="T" data-full="Technozen">T</div>
+  <div class="tab" data-key="DA" data-full="Dark Aero">DA</div>
+</div>
+
+<!-- full-name strip -->
+<div id="tab-hint"></div>
+
+<!-- Main -->
+<div class="shell">
+  <section class="left-panel">
+    <h1 id="title">Frutiger Aero</h1>
+    <div class="object-grid" id="object-grid"></div>
+
+    <div class="download-panel">
+      <button class="btn" id="download-objects">
+        <svg viewBox="0 0 24 24"><path d="M12 3v12.17l3.59-3.58L17 13l-5 5-5-5 1.41-1.41L11 15.17V3h1z"/><path d="M5 18h14v2H5z"/></svg>
+        objects.txt
+      </button>
+      <button class="btn" id="download-colors">
+        <svg viewBox="0 0 24 24"><path d="M12 3v12.17l3.59-3.58L17 13l-5 5-5-5 1.41-1.41L11 15.17V3h1z"/><path d="M5 18h14v2H5z"/></svg>
+        colors.txt
+      </button>
+    </div>
+
+    <div class="bottom-bar">
+      Data gathered from <strong id="data-count">0</strong> hand-selected images
+    </div>
+  </section>
+
+  <aside class="right-panel">
+    <div class="color-column" id="color-column"></div>
+  </aside>
+</div>
+
+<div id="copy-toast">Copied!</div>
+
+<script>
+const aestheticsConfig = {
+  "FA": { folder: "/images/FA_classic", full: "Frutiger Aero", count: 100 },
+  "D":  { folder: "/images/FA_DORFic", full: "DORFic", count: 50 },
+  "FM": { folder: "/images/FA_Frutiger_Metro", full: "Frutiger Metro", count: 65 },
+  "FE": { folder: "/images/FA_Frutiger_Eco", full: "Frutiger Eco", count: 59 },
+  "T":  { folder: "/images/FA_Technozen", full: "Technozen", count: 49 },
+  "DA": { folder: "/images/FA_Dark_Aero", full: "Dark Aero", count: 50 }
+};
+
+const tabs        = document.querySelectorAll(".tab");
+const titleEl     = document.getElementById("title");
+const objectGrid  = document.getElementById("object-grid");
+const colorColumn = document.getElementById("color-column");
+const countEl     = document.getElementById("data-count");
+const toast       = document.getElementById("copy-toast");
+const dlColors    = document.getElementById("download-colors");
+const dlObjects   = document.getElementById("download-objects");
+const tabHint     = document.getElementById("tab-hint");
+
+let currentKey = "FA";
+
+async function loadAestheticData(key) {
+  const { folder, count } = aestheticsConfig[key];
+  const data = { colors: [], objects: [], count };
+
+  try {
+    const res = await fetch(`${folder}/colors.txt`);
+    if (res.ok) {
+      const text = await res.text();
+      data.colors = text
+        .split(/\r?\n/)
+        .map(l => l.trim())
+        .filter(l => /^#?[A-Fa-f0-9]{6}/.test(l))
+        .map(l => "#" + l.replace("#","").split(/\s+/)[0]);
+    }
+  } catch (err) {
+    console.warn(`Could not load colors.txt for ${key}:`, err);
+  }
+
+  data.objects = Array.from({ length: 12 }, (_, i) => `${folder}/${i}.png`);
+  return data;
+}
+
+function render(key, data) {
+  const { full } = aestheticsConfig[key];
+  titleEl.textContent = full;
+  countEl.textContent = data.count;
+
+  objectGrid.innerHTML = data.objects
+    .map(o => `
+      <div class="object-slot">
+        <img src="${o}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">
+        <div class="object-label">${o.split('/').pop()}</div>
+      </div>
+    `)
+    .join("");
+
+  colorColumn.innerHTML = data.colors
+    .map(c => `<div class="color-bar" style="background:${c}" data-hex="${c}">${c}</div>`)
+    .join("");
+}
+
+colorColumn.addEventListener("click", e => {
+  const bar = e.target.closest(".color-bar");
+  if (!bar) return;
+  navigator.clipboard.writeText(bar.dataset.hex);
+  toast.classList.add("show");
+  setTimeout(() => toast.classList.remove("show"), 1000);
+});
+
+dlColors.addEventListener("click", () => {
+  const { folder } = aestheticsConfig[currentKey];
+  const a = document.createElement("a");
+  a.href = `${folder}/colors.txt`;
+  a.download = `${currentKey}_colors.txt`;
+  a.click();
+});
+
+dlObjects.addEventListener("click", () => {
+  alert("objects.txt download functionality will be added later.");
+});
+
+tabs.forEach(tab => {
+  tab.addEventListener("mouseenter", () => {
+    tabHint.textContent = aestheticsConfig[tab.dataset.key].full;
+    tabHint.classList.add("show");
+  });
+  tab.addEventListener("mouseleave", () => tabHint.classList.remove("show"));
+  tab.addEventListener("click", async () => {
+    tabs.forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    currentKey = tab.dataset.key;
+    const data = await loadAestheticData(currentKey);
+    render(currentKey, data);
+  });
+});
+
+(async () => {
+  const data = await loadAestheticData(currentKey);
+  render(currentKey, data);
+})();
+</script>
+</body>
+</html>
+
