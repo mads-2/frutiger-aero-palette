@@ -3,8 +3,12 @@
 
 # Define the base directory
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PORT=8080
+DEFAULT_PORT=8999
 HTML_PATH="dashboard/prototype/prototype.html"
+
+# Ask user for port number
+read -p "Enter port number [default: ${DEFAULT_PORT}]: " PORT
+PORT=${PORT:-$DEFAULT_PORT}
 
 # Go to the project root
 cd "$BASE_DIR/.."
