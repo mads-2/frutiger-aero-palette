@@ -1,0 +1,115 @@
+# ============================================================
+# Frutiger Aero — BIOS611 Project
+# ============================================================
+
+# ----------------------------
+# System / Editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+.Rproj.user
+*.swp
+*.tmp
+*.bak
+*~
+
+# ----------------------------
+# Python + Jupyter
+# ----------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ----------------------------
+# RStudio and R packages
+# ----------------------------
+.Rproj.user/
+.Ruserdata
+.Renviron
+.Rprofile
+.Rhistory
+.RData
+*.Rout
+*.Rout.save
+*.RDataTmp
+
+# ----------------------------
+# Docker and Build Artifacts
+# ----------------------------
+*.log
+*.err
+*.out
+*.pid
+*.tar
+*.gz
+*.zip
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Node/npm (in case of dashboard JS)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------------
+# Color generation outputs
+# ----------------------------
+images/FA_*/colors.txt
+images/FA_*/*color.txt
+
+# ----------------------------
+# Reports and derived data
+# ----------------------------
+reports/*.html
+reports/*.pdf
+reports/*.docx
+reports/color_summary.txt
+reports/*.md
+
+# ----------------------------
+# Dashboard and local server files
+# ----------------------------
+dashboard/__pycache__/
+dashboard/.env
+dashboard/.DS_Store
+dashboard/node_modules/
+dashboard/dist/
+dashboard/build/
+dashboard/*.log
+
+# ----------------------------
+# Misc project outputs
+# ----------------------------
+*.csv
+*.tsv
+*.rds
+*.feather
+*.parquet
+*.sqlite
+*.db
+*.h5
+
+# ----------------------------
+# Temporary / cache directories
+# ----------------------------
+tmp/
+cache/
+logs/
+*.log
+*.bak
+
+# ----------------------------
+# Environment and credentials
+# ----------------------------
+.env
+.env.*
+*.Rproj
+*.Rproj.user
+
