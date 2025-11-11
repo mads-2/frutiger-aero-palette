@@ -1,14 +1,10 @@
 #!/bin/bash
-# run_dashboard.sh — start local HTTP server and display the dashboard link
+# run_dashboard.sh — start local HTTP server on port 8181 and display link
 
 # Define the base directory
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DEFAULT_PORT=8999
+PORT=8181
 HTML_PATH="dashboard/prototype/prototype.html"
-
-# Ask user for port number
-read -p "Enter port number [default: ${DEFAULT_PORT}]: " PORT
-PORT=${PORT:-$DEFAULT_PORT}
 
 # Go to the project root
 cd "$BASE_DIR/.."
@@ -20,9 +16,9 @@ if lsof -i:$PORT >/dev/null 2>&1; then
   sleep 1
 fi
 
-# Start server in background
+# Start server in background, bind to all interfaces for Docker access
 echo "Starting local server on port $PORT..."
-python3 -m http.server $PORT >/dev/null 2>&1 &
+python3 -m http.server $PORT --bind 0.0.0.0 >/dev/null 2>&1 &
 
 # Give it a moment to start
 sleep 1

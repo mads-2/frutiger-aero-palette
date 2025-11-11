@@ -1,5 +1,6 @@
 # ============================================================
 # Frutiger Aero — Text, Image, and Trend Analysis Environment
+# (with optional Ultralytics YOLOv8 support)
 # ============================================================
 
 FROM rocker/rstudio:latest
@@ -23,6 +24,9 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     librsvg2-dev \
     pkg-config \
+    # Python for Ultralytics
+    python3 \
+    python3-pip \
     # Optional but helpful tools
     wget \
     git \
@@ -31,7 +35,6 @@ RUN apt-get update && apt-get install -y \
 # ------------------------------------------------------------
 # R packages for text mining, visualization, and trends
 # ------------------------------------------------------------
-# (Install all non-tidyverse packages first)
 RUN set -eux; \
     R -e "install.packages(c( \
       'tidytext', 'udpipe', 'textstem', 'colorfindr', \
@@ -58,18 +61,34 @@ RUN echo '\nif (interactive()) { p <- "/home/rstudio/project"; if (dir.exists(p)
 RUN echo 'cd /home/rstudio/project' >> /home/rstudio/.bashrc \
  && chown rstudio:rstudio /home/rstudio/.bashrc
 
+
+# ------------------------------------------------------------
+# Ultralytics YOLOv8 (Python AI for object detection)
+# ------------------------------------------------------------
+RUN pip install --no-cache-dir ultralytics pillow
+
+# Prepare directory for later Python scripts or images
+RUN mkdir -p /home/rstudio/project/images
+
+# Prevent Ultralytics setup prompts
+ENV ULTRALYTICS_CONFIG_DIR=/root/.config/ultralytics
+
+
 # ------------------------------------------------------------
 # Usage
 # ------------------------------------------------------------
-# Build the image:
-#   docker build --no-cache -t aero .
+# Build the image (single unified tag):
+#   docker build -t aero .
 #
-# Run the container (choose any free local port):
+# Run RStudio + YOLOv8:
 #   docker run --rm -e PASSWORD=mysecret -p 8997:8787 \
 #     -v "$(pwd)":/home/rstudio/project aero
 #
-# Then open:
-#   http://localhost:8997
+# Access RStudio:
+#   → http://localhost:8997
 #   → user: rstudio | pass: mysecret
+#
+# Later, you can add detect_objects.py manually and run:
+#   python detect_objects.py images/my_image.jpg
 # ------------------------------------------------------------
 
