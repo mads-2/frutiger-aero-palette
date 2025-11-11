@@ -1,0 +1,7 @@
+Red	0.978
+Pink	0.881
+Graphic design	0.703
+Graphics	0.685
+Design	0.664
+Fractal art	0.545
+Wallpaper	0.539

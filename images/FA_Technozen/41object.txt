@@ -1,0 +1,10 @@
+Bookcase	0.991
+Shelf	0.989
+Shelving	0.983
+Book	0.965
+Publication	0.946
+Interior design	0.946
+Furniture	0.945
+Flooring	0.916
+Library	0.887
+Room	0.870

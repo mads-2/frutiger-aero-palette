@@ -1,0 +1,9 @@
+Ceiling	0.839
+Design	0.672
+Graphics	0.658
+Wallpaper	0.610
+Light fixture	0.601
+Animation	0.584
+Graphic design	0.577
+Sphere	0.541
+Hotel	0.510

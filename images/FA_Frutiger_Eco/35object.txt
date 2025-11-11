@@ -1,0 +1,8 @@
+Earth	0.882
+Sphere	0.819
+Graphics	0.658
+Graphic design	0.583
+Science	0.578
+Green algae	0.553
+Globe	0.524
+Drop	0.515

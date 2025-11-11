@@ -1,0 +1,10 @@
+Electronic device	0.918
+Gadget	0.914
+Technology	0.859
+Telephony	0.812
+Mobile phone	0.788
+Communication Device	0.776
+Portable communications device	0.686
+Mobile device	0.685
+Telephone	0.669
+Electronics	0.618

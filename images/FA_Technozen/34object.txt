@@ -1,0 +1,7 @@
+Interior design	0.941
+Ceiling	0.923
+Furniture	0.908
+Chair	0.804
+Design	0.664
+Light fixture	0.660
+Restaurant	0.570

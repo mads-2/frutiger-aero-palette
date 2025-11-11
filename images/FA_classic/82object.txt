@@ -1,0 +1,9 @@
+Blue	0.989
+Logo	0.782
+Operating system	0.782
+Symbol	0.748
+Graphics	0.654
+Screenshot	0.651
+Icon	0.574
+Graphic design	0.572
+Software	0.506

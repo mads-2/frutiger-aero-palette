@@ -1,0 +1,7 @@
+Blue	0.989
+Technology	0.849
+Graphics	0.712
+Night	0.696
+Design	0.673
+Graphic design	0.666
+Fractal art	0.512

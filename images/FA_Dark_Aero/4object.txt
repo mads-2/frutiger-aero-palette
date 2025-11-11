@@ -1,0 +1,10 @@
+Technology	0.877
+Software	0.840
+Screenshot	0.729
+Multimedia	0.701
+Symbol	0.677
+Display device	0.669
+Video Game Software	0.659
+Operating system	0.629
+Graphics	0.586
+Computer	0.576

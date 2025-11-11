@@ -1,0 +1,10 @@
+Blue	0.989
+Purple	0.807
+Graphics	0.751
+Graphic design	0.744
+Astronomical object	0.731
+Fractal art	0.679
+Design	0.679
+Lens flare	0.622
+Sphere	0.620
+Science	0.607

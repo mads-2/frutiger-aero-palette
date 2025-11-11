@@ -1,0 +1,8 @@
+Interior design	0.928
+Plumbing fixture	0.751
+Bathtub	0.712
+Design	0.680
+Hotel	0.614
+Bathroom	0.613
+Plumbing	0.570
+Cleanliness	0.555

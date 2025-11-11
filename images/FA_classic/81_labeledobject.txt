@@ -1,0 +1,10 @@
+Technology	0.886
+Advertising	0.881
+Graphic design	0.651
+Earth	0.643
+Air travel	0.637
+Screenshot	0.636
+Graphics	0.628
+Science	0.613
+Multimedia	0.602
+Flight	0.600

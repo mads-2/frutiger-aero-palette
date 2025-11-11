@@ -1,0 +1,10 @@
+Blue	0.988
+Green	0.978
+Nature	0.976
+Cloud	0.976
+Cumulus	0.949
+Grassland	0.940
+Meadow	0.859
+Field	0.858
+Meteorological phenomenon	0.855
+Pasture	0.822

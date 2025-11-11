@@ -1,0 +1,10 @@
+Furniture	0.975
+Table	0.925
+Flooring	0.913
+Floor	0.884
+Restaurant	0.804
+Chair	0.760
+Hardwood	0.688
+Wood stain	0.665
+Design	0.663
+Plastic	0.658

@@ -1,0 +1,4 @@
+Yellow	0.956
+Graphic design	0.789
+Graphics	0.720
+Design	0.681

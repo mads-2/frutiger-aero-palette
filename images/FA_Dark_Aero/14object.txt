@@ -1,0 +1,9 @@
+Game controller	0.975
+Joystick	0.941
+Electronic device	0.923
+Technology	0.852
+Remote control	0.839
+Input device	0.826
+Gadget	0.813
+Peripheral	0.717
+Video Game Software	0.520

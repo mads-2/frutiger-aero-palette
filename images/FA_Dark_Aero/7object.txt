@@ -1,0 +1,10 @@
+Technology	0.837
+Logo	0.777
+Graphic design	0.743
+Graphics	0.741
+Animation	0.739
+Fictional character	0.713
+Design	0.676
+Symbol	0.666
+Mask	0.602
+Fractal art	0.509

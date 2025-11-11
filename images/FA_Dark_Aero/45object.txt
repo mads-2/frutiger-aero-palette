@@ -1,0 +1,4 @@
+Night	0.784
+Neon	0.737
+Graphics	0.680
+Visual Effect Lighting	0.527

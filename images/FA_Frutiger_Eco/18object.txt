@@ -1,0 +1,4 @@
+Green	0.983
+Clip art	0.759
+Graphics	0.727
+Graphic design	0.691

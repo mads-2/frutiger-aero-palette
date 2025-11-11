@@ -1,0 +1,6 @@
+Green	0.985
+Fractal art	0.774
+Graphics	0.712
+Design	0.683
+Graphic design	0.668
+Vortex	0.585

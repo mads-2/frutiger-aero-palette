@@ -1,0 +1,10 @@
+Water	0.981
+Tourist attraction	0.824
+Ocean	0.811
+Island	0.782
+Artificial island	0.677
+Design	0.664
+Graphics	0.605
+Science	0.575
+Tropics	0.543
+List of peninsulas	0.502

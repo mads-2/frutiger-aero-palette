@@ -1,0 +1,10 @@
+Moon	0.989
+Nature	0.976
+Astronomical object	0.964
+Full moon	0.932
+Event	0.926
+Moonlight	0.926
+Planet	0.914
+Night	0.911
+Sphere	0.896
+Celestial event	0.857

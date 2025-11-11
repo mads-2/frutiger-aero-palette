@@ -1,0 +1,10 @@
+Nature	0.973
+Garden	0.833
+Woody plant	0.822
+Landscaping	0.745
+Evergreen	0.593
+Graphics	0.587
+Plantation	0.532
+Agriculture	0.517
+Graphic design	0.516
+Botanical garden	0.514

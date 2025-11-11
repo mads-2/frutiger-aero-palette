@@ -1,0 +1,4 @@
+Graphic design	0.742
+Poster	0.697
+Graphics	0.695
+Design	0.666

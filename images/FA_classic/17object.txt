@@ -1,0 +1,6 @@
+Glass	0.826
+Design	0.665
+Transparency	0.576
+Science	0.572
+Light fixture	0.546
+Plumbing fixture	0.501

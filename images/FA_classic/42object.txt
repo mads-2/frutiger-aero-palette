@@ -1,0 +1,10 @@
+Bottle	0.978
+Liquid	0.921
+Soft drink	0.903
+Drinkware	0.899
+Plastic bottle	0.876
+Carbonated soft drinks	0.844
+Logo	0.831
+Plastic	0.719
+Non-alcoholic drink	0.718
+Water bottle	0.697

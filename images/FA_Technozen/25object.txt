@@ -1,0 +1,10 @@
+Electronic device	0.984
+Home appliance	0.941
+Major appliance	0.940
+Furniture	0.938
+Kitchen Appliance	0.906
+Room	0.890
+Display device	0.887
+Technology	0.877
+Cabinetry	0.866
+Office Equipment	0.864

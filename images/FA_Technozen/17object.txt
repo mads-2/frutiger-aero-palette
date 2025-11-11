@@ -1,0 +1,10 @@
+Stairs	0.957
+Handrail	0.920
+Metal	0.839
+Spoke	0.834
+Iron	0.795
+Glass	0.774
+Baluster	0.700
+Building material	0.661
+Daylighting	0.650
+Steel	0.647

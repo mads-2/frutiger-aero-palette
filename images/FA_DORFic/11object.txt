@@ -1,0 +1,9 @@
+Flooring	0.964
+Orange	0.950
+Interior design	0.948
+Floor	0.940
+Ceiling	0.938
+Hall	0.620
+Exhibition	0.615
+Graphics	0.606
+Graphic design	0.542

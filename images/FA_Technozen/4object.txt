@@ -1,0 +1,10 @@
+Flooring	0.941
+Interior design	0.932
+Floor	0.918
+Ceiling	0.781
+Artificial turf	0.750
+Graphics	0.699
+Design	0.681
+Headquarters	0.680
+Graphic design	0.589
+Cleanliness	0.572

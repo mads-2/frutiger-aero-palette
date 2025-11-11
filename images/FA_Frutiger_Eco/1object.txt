@@ -1,0 +1,10 @@
+Green	0.982
+Daytime	0.981
+Field	0.840
+Sunlight	0.824
+Meadow	0.757
+Sun	0.742
+Prairie	0.722
+Herbaceous plant	0.715
+Agriculture	0.704
+Astronomical object	0.663

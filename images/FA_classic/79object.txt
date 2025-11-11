@@ -1,0 +1,10 @@
+Blue	0.989
+Interior design	0.956
+Ceiling	0.953
+Furniture	0.948
+Lighting	0.915
+Home	0.909
+Bedroom	0.905
+Bed	0.883
+Living room	0.748
+Wallpaper	0.718

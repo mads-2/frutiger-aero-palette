@@ -1,0 +1,10 @@
+Electronic device	0.913
+Technology	0.871
+Software	0.858
+Operating system	0.835
+Computer	0.830
+Multimedia Software	0.748
+Multimedia	0.742
+Logo	0.735
+Symbol	0.732
+Personal computer	0.712

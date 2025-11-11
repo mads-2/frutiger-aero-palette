@@ -1,0 +1,9 @@
+Fruit	0.976
+Yellow	0.970
+Produce	0.947
+Orange	0.927
+Natural foods	0.889
+Apple	0.806
+Food	0.739
+Apples	0.554
+Seedless fruit	0.535

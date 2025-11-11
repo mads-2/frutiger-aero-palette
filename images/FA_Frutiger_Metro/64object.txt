@@ -1,0 +1,7 @@
+High-rise building	0.810
+Skyscraper	0.720
+Graphics	0.695
+Graphic design	0.691
+Design	0.672
+Cityscape	0.670
+Skyline	0.507

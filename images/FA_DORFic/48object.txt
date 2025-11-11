@@ -1,0 +1,4 @@
+Orange	0.981
+Red	0.977
+Graphic design	0.703
+Graphics	0.677

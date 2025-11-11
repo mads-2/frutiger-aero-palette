@@ -1,0 +1,6 @@
+Plastic	0.760
+Shelf	0.698
+Shelving	0.650
+Cleanliness	0.598
+Retail	0.552
+Science	0.547

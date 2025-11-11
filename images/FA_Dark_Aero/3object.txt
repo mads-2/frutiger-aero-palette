@@ -1,0 +1,6 @@
+Green	0.985
+Technology	0.867
+Graphic design	0.748
+Graphics	0.740
+Fractal art	0.638
+Science	0.573

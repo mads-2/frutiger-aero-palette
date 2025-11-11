@@ -1,0 +1,10 @@
+Blue	0.989
+Fish	0.935
+Ocean	0.882
+Marine biology	0.876
+Sea	0.866
+Dolphin	0.854
+Underwater	0.826
+Graphics	0.673
+Bottlenose dolphin	0.672
+Animation	0.669

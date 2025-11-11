@@ -1,0 +1,10 @@
+Astronomical object	0.897
+High-rise building	0.829
+Tower	0.825
+Planet	0.821
+Skyscraper	0.806
+Metropolis	0.805
+Sphere	0.794
+Cityscape	0.790
+Night	0.753
+Globe	0.730

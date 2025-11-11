@@ -1,0 +1,5 @@
+Graphics	0.697
+Clip art	0.664
+Graphic design	0.628
+Sticker	0.552
+Animated cartoon	0.505

@@ -1,0 +1,10 @@
+Flooring	0.964
+Interior design	0.964
+Ceiling	0.959
+Floor	0.936
+Orange	0.923
+Light fixture	0.627
+Graphics	0.616
+Tile	0.615
+Graphic design	0.571
+Lobby	0.567

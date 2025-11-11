@@ -1,0 +1,10 @@
+Electronic device	0.980
+Office Equipment	0.968
+Input device	0.947
+Peripheral	0.918
+Computer hardware	0.885
+Office supplies	0.866
+Technology	0.858
+Gadget	0.841
+Computer	0.840
+Personal computer	0.837

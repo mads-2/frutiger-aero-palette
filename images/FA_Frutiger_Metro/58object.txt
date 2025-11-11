@@ -1,0 +1,5 @@
+Blue	0.989
+Graphic design	0.755
+Graphics	0.695
+Design	0.672
+Modern art	0.523

@@ -1,0 +1,5 @@
+Clinic	0.783
+Chair	0.663
+Hotel	0.568
+Cleanliness	0.559
+Medical	0.544

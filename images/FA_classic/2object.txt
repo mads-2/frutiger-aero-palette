@@ -1,0 +1,10 @@
+Interior design	0.978
+Flooring	0.977
+Floor	0.964
+Lighting	0.928
+Ceiling	0.917
+Glass	0.905
+Commercial building	0.886
+Shelving	0.862
+Shelf	0.833
+Cleanliness	0.738

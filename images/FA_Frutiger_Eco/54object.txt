@@ -1,0 +1,7 @@
+Bracelet	0.812
+Body Jewelry	0.691
+Natural material	0.684
+Wristband	0.609
+Watch	0.595
+Jewelry Making	0.522
+Gemstone	0.506

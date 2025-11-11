@@ -1,0 +1,10 @@
+Flooring	0.972
+Floor	0.957
+Wood flooring	0.886
+Mat	0.885
+Rug	0.859
+Living room	0.808
+Carpet	0.787
+Hardwood	0.722
+Laminate flooring	0.722
+Wood stain	0.684

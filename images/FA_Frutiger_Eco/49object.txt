@@ -1,0 +1,10 @@
+Cloud	0.945
+Garden	0.838
+Cumulus	0.765
+Meteorological phenomenon	0.755
+Lawn	0.720
+Astronomical object	0.617
+Graphics	0.612
+Wind	0.609
+Graphic design	0.574
+Sphere	0.551

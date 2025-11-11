@@ -1,0 +1,7 @@
+Tower	0.953
+Landmark	0.916
+Tourist attraction	0.860
+Observation tower	0.842
+Skyscraper	0.832
+High-rise building	0.806
+Engineering	0.748

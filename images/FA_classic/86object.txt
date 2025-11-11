@@ -1,0 +1,10 @@
+Graphics	0.732
+Lawn	0.731
+Meteorological phenomenon	0.696
+Graphic design	0.681
+Design	0.672
+Cumulus	0.614
+Agriculture	0.603
+Science	0.590
+Sphere	0.589
+Park	0.582

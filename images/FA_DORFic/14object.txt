@@ -1,0 +1,7 @@
+Yellow	0.978
+Orange	0.945
+Graphic design	0.639
+Graphics	0.631
+Animation	0.630
+Happiness	0.589
+Citrus	0.552

@@ -1,0 +1,10 @@
+Text	0.956
+Orange	0.952
+Screenshot	0.919
+Software	0.915
+Font	0.905
+Technology	0.860
+Operating system	0.763
+Multimedia Software	0.722
+Icon	0.663
+Computer program	0.658

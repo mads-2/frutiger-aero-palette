@@ -1,0 +1,10 @@
+Blue	0.989
+Star	0.926
+Astronomical object	0.883
+Graphic design	0.767
+Graphics	0.755
+Symbol	0.708
+Design	0.696
+Night	0.604
+Constellation	0.596
+Wallpaper	0.567

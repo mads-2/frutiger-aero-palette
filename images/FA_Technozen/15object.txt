@@ -1,0 +1,10 @@
+Car	0.975
+Automotive Wheel System	0.867
+Alloy wheel	0.844
+Car door	0.826
+Scion	0.806
+Fender	0.801
+Bumper	0.790
+Silver	0.770
+Hubcap	0.761
+Rolling	0.679

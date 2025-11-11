@@ -1,0 +1,8 @@
+Blue	0.989
+Animation	0.791
+Cumulus	0.763
+Meteorological phenomenon	0.707
+Graphics	0.622
+Fictional character	0.587
+Screenshot	0.572
+Animated cartoon	0.557

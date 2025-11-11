@@ -1,0 +1,10 @@
+Aerospace Engineering	0.876
+Aircraft	0.842
+Aviation	0.829
+Air travel	0.821
+Fixed-wing aircraft	0.786
+Flight	0.785
+Advertising	0.762
+Travel	0.736
+Globe	0.638
+Graphics	0.628

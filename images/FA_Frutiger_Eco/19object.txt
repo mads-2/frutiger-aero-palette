@@ -1,0 +1,9 @@
+Field	0.723
+Meteorological phenomenon	0.685
+Cumulus	0.676
+Agriculture	0.623
+Graphics	0.609
+Graphic design	0.569
+Science	0.569
+Wind	0.559
+Sphere	0.520

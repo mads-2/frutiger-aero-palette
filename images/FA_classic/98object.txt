@@ -1,0 +1,10 @@
+Fish	0.963
+Goldfish	0.907
+Orange	0.886
+Aquarium	0.809
+Marine biology	0.751
+Fin	0.749
+Fish Supply	0.745
+Sphere	0.741
+Ray-finned fishes	0.675
+Bony fishes	0.638

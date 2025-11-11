@@ -1,0 +1,10 @@
+Nature	0.973
+Plants	0.967
+Garden	0.927
+Meadow	0.809
+Lawn	0.775
+Agriculture	0.713
+Animation	0.688
+Landscaping	0.674
+Graphics	0.599
+Botanical garden	0.570

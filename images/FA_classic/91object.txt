@@ -1,0 +1,6 @@
+Blue	0.990
+Fluid	0.955
+Liquid	0.919
+Graphics	0.698
+Graphic design	0.611
+Underwater	0.575

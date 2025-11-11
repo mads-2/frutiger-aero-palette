@@ -1,0 +1,5 @@
+Graphic design	0.795
+Graphics	0.732
+Design	0.679
+Neon	0.629
+Fractal art	0.524

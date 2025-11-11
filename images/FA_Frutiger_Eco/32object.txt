@@ -1,0 +1,10 @@
+High-rise building	0.947
+Skyscraper	0.944
+Cityscape	0.913
+Metropolis	0.896
+Tower	0.856
+Tourist attraction	0.799
+Commercial building	0.787
+Skyline	0.782
+Condominium	0.778
+Intersection	0.650

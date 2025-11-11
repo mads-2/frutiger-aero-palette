@@ -1,0 +1,10 @@
+Blue	0.989
+Nature	0.976
+Natural landscape	0.964
+Cloud	0.948
+Spring	0.838
+Meadow	0.831
+Cumulus	0.825
+Field	0.818
+Meteorological phenomenon	0.728
+Reservoir	0.701

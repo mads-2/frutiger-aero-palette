@@ -1,0 +1,9 @@
+Produce	0.880
+Symbol	0.813
+Logo	0.812
+Fruit	0.793
+Natural foods	0.730
+Granny Smith	0.710
+Graphics	0.689
+Graphic design	0.676
+Apple	0.656

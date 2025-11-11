@@ -1,0 +1,6 @@
+Silver	0.748
+Glass	0.740
+Plastic	0.677
+Dishware	0.669
+Serveware	0.633
+Sphere	0.555

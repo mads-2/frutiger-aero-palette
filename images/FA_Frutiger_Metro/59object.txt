@@ -1,0 +1,6 @@
+Black and white	0.779
+Illustration	0.763
+Graphic design	0.729
+Graphics	0.677
+Design	0.669
+Boombox	0.514

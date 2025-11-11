@@ -1,0 +1,9 @@
+Globe	0.950
+Finger	0.938
+Earth	0.911
+Planet	0.888
+Gesture	0.823
+Thumb	0.822
+Sphere	0.737
+Nail	0.627
+Stock photography	0.500

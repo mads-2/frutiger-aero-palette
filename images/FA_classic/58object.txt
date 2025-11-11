@@ -1,0 +1,10 @@
+Blue	0.989
+Cloud	0.930
+Grassland	0.903
+Lawn	0.814
+Cumulus	0.802
+Field	0.785
+Meadow	0.783
+Prairie	0.690
+Meteorological phenomenon	0.689
+Graphics	0.586

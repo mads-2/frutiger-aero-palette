@@ -1,0 +1,10 @@
+Furniture	0.982
+Interior design	0.982
+Wall	0.975
+Flooring	0.972
+Wood	0.967
+Living room	0.965
+Home	0.961
+Floor	0.958
+Couch	0.947
+Apartment	0.941

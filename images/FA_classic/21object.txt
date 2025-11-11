@@ -1,0 +1,10 @@
+Electronic device	0.953
+Display device	0.917
+Technology	0.873
+Game	0.849
+Machine	0.831
+Gadget	0.822
+Electronics	0.809
+Multimedia	0.685
+Animation	0.652
+Graphics	0.609

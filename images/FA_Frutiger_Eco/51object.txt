@@ -1,0 +1,9 @@
+Earth	0.874
+Sphere	0.759
+Globe	0.756
+Planet	0.738
+Graphics	0.669
+Wind turbine	0.655
+Graphic design	0.614
+Science	0.585
+Wind farm	0.575

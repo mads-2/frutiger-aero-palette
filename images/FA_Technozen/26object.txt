@@ -1,0 +1,7 @@
+Exercise	0.847
+Physical fitness	0.807
+Balance	0.691
+Advertising	0.671
+Yoga	0.649
+Training	0.524
+Hip	0.523

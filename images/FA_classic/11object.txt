@@ -1,0 +1,8 @@
+Green	0.974
+Logo	0.768
+Graphic design	0.752
+Graphics	0.719
+Symbol	0.660
+Animation	0.606
+Operating system	0.606
+Science	0.527

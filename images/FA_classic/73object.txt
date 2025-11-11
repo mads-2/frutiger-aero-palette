@@ -1,0 +1,6 @@
+Blue	0.989
+Green	0.983
+Yellow	0.970
+Orange	0.905
+Graphics	0.652
+Graphic design	0.638

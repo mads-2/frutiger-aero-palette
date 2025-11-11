@@ -1,0 +1,10 @@
+Software	0.888
+Technology	0.883
+Screenshot	0.811
+Operating system	0.772
+Computer	0.761
+Video Game Software	0.751
+Multimedia Software	0.737
+Icon	0.691
+Multimedia	0.679
+Personal computer	0.674

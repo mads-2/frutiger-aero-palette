@@ -1,0 +1,6 @@
+Technology	0.891
+Graphic design	0.708
+Graphics	0.611
+Compact disc	0.599
+Science	0.510
+Electronics	0.503

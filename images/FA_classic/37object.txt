@@ -1,0 +1,10 @@
+Interior design	0.943
+Ceiling	0.864
+Fish	0.833
+Living room	0.702
+Graphics	0.661
+Animation	0.658
+Daybed	0.618
+Underwater	0.571
+Hotel	0.570
+Waiting room	0.534

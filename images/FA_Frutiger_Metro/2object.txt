@@ -1,0 +1,9 @@
+Red	0.973
+Pink	0.907
+Graphic design	0.802
+Graphics	0.747
+Fractal art	0.737
+Design	0.689
+Psychedelic art	0.635
+Modern art	0.521
+Wallpaper	0.516

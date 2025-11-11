@@ -1,0 +1,9 @@
+Screenshot	0.712
+Multimedia	0.616
+Graphics	0.608
+Computer	0.607
+Software	0.567
+Personal computer	0.551
+Display device	0.532
+Graphic design	0.530
+Science	0.501

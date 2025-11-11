@@ -1,0 +1,7 @@
+Electronic device	0.979
+Technology	0.867
+Gadget	0.862
+Machine	0.844
+Watch	0.736
+Electronics	0.674
+Measuring instrument	0.655

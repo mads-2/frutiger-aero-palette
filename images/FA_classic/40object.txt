@@ -1,0 +1,6 @@
+Fluid	0.954
+Liquid	0.919
+Drop	0.733
+Graphics	0.712
+Graphic design	0.681
+Bubble	0.522

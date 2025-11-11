@@ -1,0 +1,7 @@
+Game controller	0.889
+Technology	0.842
+Game	0.775
+Joystick	0.774
+Symbol	0.665
+Gadget	0.625
+Video Game Software	0.553

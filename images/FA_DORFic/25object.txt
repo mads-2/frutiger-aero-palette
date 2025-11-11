@@ -1,0 +1,5 @@
+Orange	0.965
+Yellow	0.954
+Technology	0.836
+Graphics	0.688
+Graphic design	0.674

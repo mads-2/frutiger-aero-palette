@@ -1,0 +1,10 @@
+Solar panel	0.985
+Wind turbine	0.984
+Solar energy	0.983
+Solar power	0.976
+Wind farm	0.966
+Windmill	0.966
+Technology	0.894
+Wind	0.882
+Machine	0.839
+Turbine	0.798

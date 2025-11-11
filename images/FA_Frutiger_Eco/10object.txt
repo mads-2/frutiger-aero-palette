@@ -1,0 +1,9 @@
+Globe	0.910
+Earth	0.818
+Planet	0.797
+Sphere	0.772
+Design	0.673
+Graphics	0.616
+Skyscraper	0.589
+Science	0.583
+Graphic design	0.537

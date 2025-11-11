@@ -1,0 +1,5 @@
+Green	0.979
+Liquid	0.918
+Graphics	0.693
+Drop	0.586
+Graphic design	0.549

@@ -1,0 +1,7 @@
+Graphics	0.742
+Graphic design	0.703
+Happiness	0.691
+Clip art	0.687
+Animation	0.641
+Animated cartoon	0.577
+Primate	0.528

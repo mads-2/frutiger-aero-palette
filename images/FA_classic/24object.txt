@@ -1,0 +1,9 @@
+Soccer ball	0.734
+Graphics	0.712
+Graphic design	0.707
+Animation	0.686
+Meteorological phenomenon	0.667
+Sphere	0.638
+Astronomical object	0.533
+Lens flare	0.526
+Ball	0.501

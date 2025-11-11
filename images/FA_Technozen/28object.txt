@@ -1,0 +1,7 @@
+Mobile phone	0.781
+Gadget	0.757
+Communication Device	0.746
+Telephony	0.617
+Mobile device	0.603
+Portable communications device	0.575
+Feature phone	0.515

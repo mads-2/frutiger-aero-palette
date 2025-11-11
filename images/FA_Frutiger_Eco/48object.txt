@@ -1,0 +1,10 @@
+Cloud	0.952
+Cumulus	0.822
+Meteorological phenomenon	0.791
+Meadow	0.783
+Graphics	0.662
+Animation	0.636
+Astronomical object	0.602
+Bird	0.564
+Wind	0.561
+Flight	0.521

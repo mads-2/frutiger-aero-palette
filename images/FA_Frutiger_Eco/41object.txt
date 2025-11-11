@@ -1,0 +1,10 @@
+Wall	0.976
+Furniture	0.976
+Interior design	0.971
+Flooring	0.912
+Floor	0.901
+Room	0.855
+Ceiling	0.843
+Shelving	0.808
+Shelf	0.762
+Chair	0.703

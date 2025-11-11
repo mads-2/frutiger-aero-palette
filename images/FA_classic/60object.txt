@@ -1,0 +1,10 @@
+Blue	0.989
+Nature	0.978
+Cloud	0.955
+Natural landscape	0.953
+Astronomical object	0.902
+Lawn	0.838
+Garden	0.819
+Meadow	0.812
+Field	0.792
+Cumulus	0.790

@@ -1,0 +1,4 @@
+Blue	0.989
+Graphics	0.717
+Graphic design	0.708
+Design	0.668

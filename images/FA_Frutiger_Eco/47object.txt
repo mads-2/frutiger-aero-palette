@@ -1,0 +1,10 @@
+Blue	0.989
+Nature	0.978
+Cloud	0.913
+Wind	0.757
+Garden	0.756
+Cumulus	0.739
+Meteorological phenomenon	0.718
+Graphics	0.634
+Graphic design	0.555
+Tropics	0.547

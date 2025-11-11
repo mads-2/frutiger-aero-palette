@@ -1,0 +1,10 @@
+Electronic device	0.966
+Display device	0.921
+Technology	0.865
+Operating system	0.858
+Computer	0.799
+Personal computer	0.758
+Software	0.753
+Icon	0.729
+Multimedia	0.706
+Gadget	0.623

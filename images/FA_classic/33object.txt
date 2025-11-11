@@ -1,0 +1,10 @@
+Electronic device	0.954
+Display device	0.925
+Technology	0.884
+Screenshot	0.817
+Electronics	0.799
+Gadget	0.795
+Multimedia	0.779
+Software	0.712
+Operating system	0.669
+Icon	0.637

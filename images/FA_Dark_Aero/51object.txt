@@ -1,0 +1,10 @@
+Technology	0.842
+Operating system	0.824
+Logo	0.747
+Symbol	0.739
+Graphics	0.660
+Graphic design	0.635
+Screenshot	0.612
+Icon	0.566
+Software	0.539
+Multimedia	0.505

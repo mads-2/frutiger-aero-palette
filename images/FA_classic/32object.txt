@@ -1,0 +1,9 @@
+Blue	0.989
+Daytime	0.982
+High-rise building	0.923
+Condominium	0.838
+Apartment	0.838
+Skyscraper	0.835
+Cumulus	0.680
+Headquarters	0.593
+Cityscape	0.541

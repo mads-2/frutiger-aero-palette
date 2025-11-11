@@ -1,0 +1,5 @@
+Blue	0.988
+Sphere	0.829
+Globe	0.819
+Earth	0.812
+Planet	0.664

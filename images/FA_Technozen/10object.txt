@@ -1,0 +1,10 @@
+Handheld game console	0.966
+Video game console	0.962
+Gadget	0.958
+Nintendo DS	0.952
+Electronic device	0.940
+Game	0.890
+Technology	0.856
+Portable Electronic Game	0.833
+Display device	0.744
+Nintendo 3DS	0.685

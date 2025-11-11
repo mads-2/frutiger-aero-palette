@@ -1,0 +1,4 @@
+Graphic design	0.738
+Graphics	0.690
+Design	0.664
+Animation	0.641

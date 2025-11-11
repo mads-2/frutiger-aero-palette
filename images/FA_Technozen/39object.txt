@@ -1,0 +1,10 @@
+Flooring	0.971
+Floor	0.958
+Interior design	0.923
+Wood flooring	0.903
+Furniture	0.887
+Apartment	0.875
+Living room	0.850
+Room	0.846
+Hardwood	0.843
+Ceiling	0.838

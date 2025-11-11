@@ -1,0 +1,10 @@
+Yellow	0.968
+Orange	0.963
+Sphere	0.862
+Astronomical object	0.626
+Graphics	0.598
+Graphic design	0.587
+Lens flare	0.583
+Heat	0.555
+Sun	0.539
+Sunrise	0.528

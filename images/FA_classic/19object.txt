@@ -1,0 +1,10 @@
+Interior design	0.986
+Furniture	0.977
+Flooring	0.962
+Ceiling	0.953
+Floor	0.951
+Chair	0.938
+Architecture	0.929
+Glass	0.923
+Office chair	0.881
+Commercial building	0.822

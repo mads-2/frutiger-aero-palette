@@ -1,0 +1,9 @@
+Cone	0.946
+Pyramid	0.873
+Technology	0.843
+Triangle	0.801
+Graphics	0.645
+Clip art	0.601
+Screenshot	0.596
+Science	0.569
+Graphic design	0.500

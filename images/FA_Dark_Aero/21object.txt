@@ -1,0 +1,10 @@
+Audio equipment	0.984
+Electronic device	0.956
+Headphones	0.922
+Technology	0.891
+Headset	0.814
+Loudspeaker	0.761
+Gadget	0.728
+Graphic design	0.686
+Electronics	0.661
+Graphics	0.658

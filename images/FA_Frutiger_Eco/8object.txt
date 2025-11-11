@@ -1,0 +1,10 @@
+Blue	0.988
+Astronomical object	0.766
+Earth	0.716
+Meteorological phenomenon	0.658
+Cumulus	0.652
+Graphics	0.623
+Planet	0.592
+Wind	0.556
+Globe	0.538
+Sphere	0.501

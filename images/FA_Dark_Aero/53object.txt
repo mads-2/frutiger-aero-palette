@@ -1,0 +1,10 @@
+Electronic device	0.935
+Software	0.897
+Technology	0.871
+Operating system	0.844
+Screenshot	0.812
+Video Game Software	0.811
+Computer	0.795
+Multimedia	0.778
+Multimedia Software	0.725
+Personal computer	0.712

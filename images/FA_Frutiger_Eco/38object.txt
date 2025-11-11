@@ -1,0 +1,7 @@
+Green	0.982
+Fluid	0.953
+Liquid	0.921
+Drop	0.686
+Graphics	0.684
+Clip art	0.596
+Solvent in chemical reactions	0.560

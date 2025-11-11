@@ -1,0 +1,7 @@
+Green	0.982
+Fractal art	0.794
+Graphic design	0.743
+Graphics	0.742
+Design	0.671
+Science	0.578
+Neon	0.550

@@ -1,0 +1,10 @@
+Interior design	0.972
+Furniture	0.967
+Flooring	0.949
+Floor	0.931
+Lighting	0.911
+Room	0.856
+Ceiling	0.855
+Houseplant	0.799
+Flowerpot	0.738
+Chair	0.729

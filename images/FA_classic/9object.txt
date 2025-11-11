@@ -1,0 +1,9 @@
+Blue	0.989
+Technology	0.837
+Operating system	0.810
+Symbol	0.719
+Graphics	0.658
+Graphic design	0.630
+Icon	0.590
+Screenshot	0.554
+Software	0.526

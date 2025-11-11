@@ -1,0 +1,10 @@
+Green	0.981
+Grass	0.978
+Field	0.884
+Grasses	0.878
+Meadow	0.834
+Spring	0.828
+Lawn	0.826
+Sunlight	0.797
+Moisture	0.777
+Agriculture	0.749

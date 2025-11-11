@@ -1,0 +1,8 @@
+Blue	0.989
+Cloud	0.958
+Cumulus	0.816
+Operating system	0.805
+Graphic design	0.691
+Graphics	0.682
+Meteorological phenomenon	0.626
+Icon	0.535

@@ -1,0 +1,4 @@
+Glass	0.804
+Design	0.672
+Headquarters	0.636
+Science	0.531

@@ -1,0 +1,9 @@
+Graphics	0.646
+Advertising	0.629
+Meteorological phenomenon	0.619
+Graphic design	0.604
+Science	0.589
+Planet	0.587
+Wind	0.581
+Earth	0.553
+Globe	0.503

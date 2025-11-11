@@ -1,0 +1,7 @@
+Red	0.976
+Pink	0.951
+Purple	0.843
+Graphics	0.687
+Design	0.672
+Graphic design	0.666
+Motif	0.555

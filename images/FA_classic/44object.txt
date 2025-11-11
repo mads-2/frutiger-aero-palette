@@ -1,0 +1,10 @@
+Grass	0.978
+Grassland	0.911
+Lawn	0.859
+Meadow	0.848
+Field	0.737
+Landscaping	0.676
+High-rise building	0.615
+Park	0.613
+Artificial turf	0.605
+Skyline	0.547

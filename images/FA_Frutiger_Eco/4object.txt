@@ -1,0 +1,7 @@
+Liquid	0.917
+Household Supply	0.736
+Plastic	0.703
+Laundry detergent	0.685
+Personal care	0.620
+Laundry Supply	0.606
+Household Cleaning Supply	0.586

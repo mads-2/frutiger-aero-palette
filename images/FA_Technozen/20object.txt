@@ -1,0 +1,10 @@
+Interior design	0.919
+Floor	0.913
+Flooring	0.908
+Artificial turf	0.760
+Living room	0.746
+Daybed	0.691
+Villa	0.634
+Houseplant	0.581
+Courtyard	0.545
+Stairs	0.524

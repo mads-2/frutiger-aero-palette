@@ -1,0 +1,6 @@
+Orange	0.947
+Machine	0.817
+Advertising	0.749
+Graphic design	0.594
+Home appliance	0.571
+Gadget	0.526

@@ -1,0 +1,10 @@
+Blue	0.989
+Art	0.917
+Cartoon	0.861
+Animation	0.826
+Fictional character	0.795
+Illustration	0.793
+Graphic design	0.769
+CG artwork	0.744
+Graphics	0.735
+Wallpaper	0.667

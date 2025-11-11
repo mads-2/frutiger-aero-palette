@@ -1,0 +1,9 @@
+Aerospace Engineering	0.857
+Aviation	0.837
+Air travel	0.834
+Aircraft	0.795
+Flight	0.725
+Graphics	0.655
+Graphic design	0.641
+Fixed-wing aircraft	0.554
+Star	0.501

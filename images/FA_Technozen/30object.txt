@@ -1,0 +1,10 @@
+Interior design	0.976
+Ceiling	0.930
+Flooring	0.923
+Floor	0.880
+Glass	0.852
+Chair	0.816
+Office chair	0.715
+Cleanliness	0.669
+Design	0.669
+Tile	0.605

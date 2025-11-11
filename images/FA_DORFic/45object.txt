@@ -1,0 +1,5 @@
+Orange	0.955
+Spire	0.747
+Graphics	0.593
+Modern art	0.537
+Graphic design	0.504

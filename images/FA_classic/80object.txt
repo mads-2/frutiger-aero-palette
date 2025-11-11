@@ -1,0 +1,10 @@
+Cloud	0.914
+Electronic device	0.896
+Display device	0.797
+Operating system	0.795
+Computer	0.760
+Screenshot	0.743
+Video Game Software	0.686
+Icon	0.675
+Graphics	0.666
+Personal computer	0.629

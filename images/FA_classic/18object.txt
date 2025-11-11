@@ -1,0 +1,10 @@
+Green	0.981
+Interior design	0.960
+Flooring	0.956
+Floor	0.910
+Glass	0.740
+Artificial turf	0.706
+Living room	0.686
+Design	0.678
+Cleanliness	0.631
+Carpet	0.619

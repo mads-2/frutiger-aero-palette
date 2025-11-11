@@ -1,0 +1,10 @@
+Interior design	0.981
+Furniture	0.979
+Lighting	0.922
+Living room	0.884
+Light fixture	0.823
+Ceiling	0.820
+Natural material	0.737
+Chair	0.711
+Wallpaper	0.705
+Design	0.693

@@ -1,0 +1,10 @@
+Cloud	0.899
+Earth	0.893
+Wind turbine	0.826
+Wind farm	0.796
+Planet	0.785
+Cumulus	0.734
+Sphere	0.720
+Globe	0.708
+Meteorological phenomenon	0.701
+Graphics	0.686

@@ -1,0 +1,8 @@
+Orange	0.962
+Ceiling	0.922
+Interior design	0.903
+Logo	0.727
+Light fixture	0.603
+Plastic	0.600
+Graphics	0.575
+Cleanliness	0.566

@@ -1,0 +1,6 @@
+Furniture	0.963
+Chair	0.888
+Sitting	0.861
+Leisure	0.808
+Cleanliness	0.614
+Armrest	0.539

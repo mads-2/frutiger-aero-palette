@@ -1,0 +1,6 @@
+Blue	0.988
+Field	0.828
+Lawn	0.808
+Meadow	0.785
+Cumulus	0.636
+Agriculture	0.535

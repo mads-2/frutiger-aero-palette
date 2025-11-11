@@ -1,0 +1,10 @@
+Blue	0.989
+Green	0.978
+Technology	0.894
+Neon	0.756
+Lens flare	0.741
+Graphics	0.737
+Design	0.693
+Graphic design	0.636
+Laser	0.601
+Visual Effect Lighting	0.545

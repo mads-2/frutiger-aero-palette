@@ -1,0 +1,6 @@
+Orange	0.926
+Animation	0.750
+Animated cartoon	0.626
+Graphics	0.572
+Graphic design	0.554
+Performing Arts	0.550

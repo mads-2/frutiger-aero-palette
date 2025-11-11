@@ -1,0 +1,10 @@
+White	0.968
+Monochrome photography	0.921
+Black	0.907
+Black and white	0.866
+Monochrome	0.855
+Grey	0.829
+Design	0.680
+Graphics	0.675
+Graphic design	0.668
+Wallpaper	0.637

@@ -1,0 +1,10 @@
+Interior design	0.948
+Ceiling	0.936
+Lighting	0.912
+Retail	0.906
+Shelf	0.888
+Technology	0.880
+Shelving	0.834
+Display case	0.790
+Glass	0.785
+Logo	0.760

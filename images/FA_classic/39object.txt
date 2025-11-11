@@ -1,0 +1,9 @@
+Technology	0.861
+Electronics	0.822
+Symbol	0.788
+Screenshot	0.763
+Software	0.710
+Display device	0.708
+Multimedia	0.656
+Icon	0.632
+Operating system	0.593

@@ -1,0 +1,10 @@
+Electronic device	0.956
+Technology	0.886
+Computer hardware	0.870
+Output device	0.812
+Peripheral	0.808
+Computer monitor	0.798
+Computer	0.760
+Office Equipment	0.732
+Desktop computer	0.729
+Software	0.658

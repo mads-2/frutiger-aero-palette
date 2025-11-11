@@ -1,0 +1,10 @@
+Green	0.974
+Cloud	0.957
+Meadow	0.851
+Lawn	0.846
+Cumulus	0.803
+Field	0.795
+Meteorological phenomenon	0.772
+Garden	0.727
+Sphere	0.722
+Bubble	0.712

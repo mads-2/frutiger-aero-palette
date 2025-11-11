@@ -1,0 +1,10 @@
+Electronic device	0.980
+Display device	0.918
+Gadget	0.908
+Technology	0.881
+Electronics	0.816
+Machine	0.793
+LED-backlit LCD	0.767
+Television	0.712
+Flat-panel display	0.669
+LCD television	0.656

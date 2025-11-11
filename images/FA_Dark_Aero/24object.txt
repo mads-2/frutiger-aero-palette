@@ -1,0 +1,4 @@
+Electronic device	0.882
+Technology	0.870
+Gadget	0.845
+Graphics	0.573

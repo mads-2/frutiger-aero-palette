@@ -1,0 +1,10 @@
+Architecture	0.936
+Commercial building	0.807
+Glass	0.789
+Eco hotel	0.744
+Headquarters	0.742
+Shade	0.692
+Design	0.672
+Daylighting	0.621
+Artificial turf	0.604
+Science	0.561

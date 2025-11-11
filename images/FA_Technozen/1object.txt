@@ -1,0 +1,10 @@
+Furniture	0.992
+Flooring	0.975
+Floor	0.970
+Table	0.969
+Interior design	0.963
+Couch	0.961
+Living room	0.939
+Coffee table	0.917
+Wood flooring	0.888
+Daybed	0.864

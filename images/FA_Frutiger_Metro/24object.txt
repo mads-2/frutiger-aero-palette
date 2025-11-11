@@ -1,0 +1,7 @@
+Creative arts	0.750
+Graphic design	0.712
+Design	0.673
+Modern art	0.637
+Graphics	0.636
+Paint	0.600
+Floral design	0.534

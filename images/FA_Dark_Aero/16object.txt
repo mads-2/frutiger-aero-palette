@@ -1,0 +1,7 @@
+Green	0.975
+Fractal art	0.727
+Fictional character	0.715
+Night	0.693
+Animation	0.690
+Graphic design	0.679
+Graphics	0.666

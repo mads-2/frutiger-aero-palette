@@ -1,0 +1,9 @@
+Blue	0.988
+Liquid	0.917
+Bubble	0.906
+Drop	0.804
+Meadow	0.771
+Moisture	0.755
+Sphere	0.699
+Graphics	0.670
+Dew	0.590

@@ -1,0 +1,10 @@
+Blue	0.988
+Technology	0.865
+Graphics	0.686
+Graphic design	0.685
+Sphere	0.657
+Wind wave	0.568
+Wind	0.560
+Earth	0.557
+Globe	0.504
+Wave	0.500

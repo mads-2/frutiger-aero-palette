@@ -1,0 +1,6 @@
+Blue	0.989
+Liquid	0.920
+Sphere	0.907
+Bubble	0.866
+Ball	0.600
+Party Supply	0.501

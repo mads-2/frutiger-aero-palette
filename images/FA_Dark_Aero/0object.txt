@@ -1,0 +1,7 @@
+Green	0.976
+Graphics	0.716
+Graphic design	0.667
+Laser	0.561
+Lens flare	0.532
+Aurora	0.525
+Fractal art	0.501

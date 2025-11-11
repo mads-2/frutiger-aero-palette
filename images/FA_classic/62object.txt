@@ -1,0 +1,9 @@
+Green	0.984
+Moisture	0.945
+Drop	0.932
+Liquid	0.920
+Dew	0.913
+Macro photography	0.632
+Precipitation	0.593
+Graphics	0.580
+Herb	0.505

@@ -1,0 +1,10 @@
+Interior design	0.969
+Furniture	0.964
+Ceiling	0.931
+Electronic device	0.930
+Lighting	0.925
+Chair	0.885
+Desk	0.882
+Display device	0.847
+Room	0.847
+Office chair	0.842

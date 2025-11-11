@@ -1,0 +1,10 @@
+Blue	0.989
+Daytime	0.981
+Green	0.976
+Cloud	0.956
+Grassland	0.928
+Meadow	0.871
+Meteorological phenomenon	0.847
+Cumulus	0.835
+Field	0.823
+Sphere	0.767

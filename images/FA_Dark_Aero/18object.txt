@@ -1,0 +1,3 @@
+Technology	0.860
+Graphics	0.706
+Graphic design	0.671

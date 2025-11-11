@@ -1,0 +1,10 @@
+Furniture	0.980
+Flooring	0.968
+Wood	0.965
+Floor	0.954
+Wood flooring	0.928
+Room	0.873
+Living room	0.847
+Hardwood	0.825
+Laminate flooring	0.788
+Wood stain	0.762

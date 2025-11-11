@@ -1,0 +1,10 @@
+Electronic device	0.984
+Gadget	0.941
+Input device	0.926
+Orange	0.917
+Technology	0.873
+Office Equipment	0.871
+Computer hardware	0.861
+Display device	0.844
+Peripheral	0.817
+Personal computer	0.784

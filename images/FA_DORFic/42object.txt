@@ -1,0 +1,3 @@
+Orange	0.961
+Graphic design	0.701
+Graphics	0.663

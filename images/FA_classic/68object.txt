@@ -1,0 +1,10 @@
+Blue	0.989
+Cloud	0.961
+Cumulus	0.867
+Meteorological phenomenon	0.795
+Sphere	0.737
+Field	0.722
+Earth	0.635
+Graphics	0.603
+Science	0.585
+Agriculture	0.580

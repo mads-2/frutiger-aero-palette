@@ -1,0 +1,10 @@
+Advertising	0.878
+Technology	0.874
+Logo	0.762
+Multimedia	0.726
+Software	0.725
+Screenshot	0.697
+Display advertising	0.636
+Online advertising	0.588
+Display device	0.573
+Gadget	0.571

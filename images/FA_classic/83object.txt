@@ -1,0 +1,8 @@
+Globe	0.890
+Earth	0.880
+Sphere	0.765
+Planet	0.722
+Graphics	0.594
+Cumulus	0.590
+Graphic design	0.583
+Science	0.576

@@ -1,0 +1,10 @@
+Pink	0.938
+Art	0.918
+Visual arts	0.854
+Purple	0.838
+Graphic design	0.785
+Illustration	0.765
+Graphics	0.754
+Creative arts	0.713
+Design	0.691
+Modern art	0.537

@@ -1,0 +1,6 @@
+Green	0.983
+Glass	0.840
+Reflection	0.790
+Daylighting	0.645
+Transparency	0.613
+Headquarters	0.570

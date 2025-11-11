@@ -1,0 +1,6 @@
+Orange	0.898
+Graphic design	0.777
+Logo	0.728
+Graphics	0.727
+Design	0.672
+Clip art	0.543

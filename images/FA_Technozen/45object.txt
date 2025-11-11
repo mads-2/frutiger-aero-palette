@@ -1,0 +1,9 @@
+Technology	0.856
+Animation	0.834
+Game	0.802
+Graphics	0.714
+Design	0.678
+Graphic design	0.661
+Screenshot	0.554
+PC game	0.549
+Science	0.548

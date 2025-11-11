@@ -1,0 +1,7 @@
+Red	0.974
+Pink	0.924
+Technology	0.878
+Loudspeaker	0.846
+Graphic design	0.739
+Design	0.667
+Graphics	0.666

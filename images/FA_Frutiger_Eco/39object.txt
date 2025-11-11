@@ -1,0 +1,9 @@
+Wind turbine	0.987
+Wind farm	0.972
+Windmill	0.951
+Turbine	0.841
+Wind	0.764
+Agriculture	0.681
+Farm	0.551
+Science	0.528
+Screenshot	0.521

@@ -1,0 +1,8 @@
+Blue	0.988
+Fluid	0.955
+Liquid	0.921
+Bubble	0.776
+Drop	0.764
+Graphics	0.623
+Graphic design	0.587
+Moisture	0.524

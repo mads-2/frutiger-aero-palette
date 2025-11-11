@@ -1,0 +1,10 @@
+Extreme sport	0.875
+Stunt	0.865
+Logo	0.851
+Freestyle motocross	0.846
+Motorcycle	0.803
+Graphic design	0.779
+Graphics	0.758
+Poster	0.708
+BMX	0.626
+Stunt Performer	0.616

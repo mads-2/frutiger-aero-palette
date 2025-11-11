@@ -1,0 +1,9 @@
+Electronic device	0.940
+Gadget	0.904
+Technology	0.878
+Electrical cable	0.816
+Electronics	0.712
+Peripheral	0.620
+Wire	0.616
+Input device	0.578
+Computer hardware	0.537

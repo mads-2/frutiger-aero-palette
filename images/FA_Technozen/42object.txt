@@ -1,0 +1,10 @@
+Interior design	0.965
+Flooring	0.955
+Floor	0.918
+Lobby	0.907
+Ceiling	0.886
+Houseplant	0.724
+Chair	0.703
+Hall	0.697
+Design	0.675
+Hotel	0.671

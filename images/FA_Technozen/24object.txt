@@ -1,0 +1,10 @@
+Flooring	0.974
+Interior design	0.971
+Floor	0.957
+Ceiling	0.947
+Chair	0.797
+Cleanliness	0.684
+Design	0.672
+Hall	0.598
+Varnish	0.586
+Transparency	0.568

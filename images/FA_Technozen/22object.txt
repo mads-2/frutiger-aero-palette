@@ -1,0 +1,10 @@
+Electronic device	0.970
+Gadget	0.930
+Technology	0.844
+Communication Device	0.820
+Telephony	0.818
+Happiness	0.795
+Mobile phone	0.760
+Portable communications device	0.667
+Mobile device	0.592
+Electronics	0.573

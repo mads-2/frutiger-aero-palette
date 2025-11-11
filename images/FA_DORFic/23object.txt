@@ -1,0 +1,5 @@
+Orange	0.967
+Interior design	0.922
+Ceiling	0.863
+Graphics	0.593
+Cleanliness	0.557

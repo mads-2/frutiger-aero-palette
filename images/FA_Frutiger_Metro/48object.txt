@@ -1,0 +1,6 @@
+Pink	0.956
+Purple	0.846
+Graphic design	0.661
+Graphics	0.631
+Floral design	0.614
+Geraniums	0.504

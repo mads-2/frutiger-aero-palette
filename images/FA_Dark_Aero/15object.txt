@@ -1,0 +1,5 @@
+Technology	0.847
+Symbol	0.794
+Graphics	0.622
+Screenshot	0.601
+Operating system	0.561

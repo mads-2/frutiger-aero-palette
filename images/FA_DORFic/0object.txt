@@ -1,0 +1,5 @@
+Electronic device	0.967
+Technology	0.875
+Electronics	0.853
+Wire	0.667
+CD player	0.515

@@ -1,0 +1,5 @@
+Pink	0.887
+Graphic design	0.739
+Graphics	0.699
+Design	0.671
+Fashion illustration	0.527

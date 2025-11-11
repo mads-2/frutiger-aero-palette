@@ -1,0 +1,4 @@
+Graphic design	0.786
+Graphics	0.746
+Design	0.691
+Clip art	0.532

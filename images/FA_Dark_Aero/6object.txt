@@ -1,0 +1,10 @@
+Blue	0.990
+Purple	0.812
+Graphic design	0.745
+Graphics	0.733
+Night	0.681
+Design	0.681
+Lens flare	0.643
+Neon	0.634
+Fractal art	0.580
+Science	0.538

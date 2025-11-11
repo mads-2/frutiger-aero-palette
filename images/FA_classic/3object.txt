@@ -1,0 +1,8 @@
+Chess	0.944
+Game	0.856
+Tabletop game	0.700
+Board game	0.669
+Indoor games and sports	0.666
+Graphics	0.574
+Chessboard	0.540
+Balance	0.526

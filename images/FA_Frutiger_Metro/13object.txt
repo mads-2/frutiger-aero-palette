@@ -1,0 +1,4 @@
+Pink	0.903
+Purple	0.842
+Graphic design	0.779
+Graphics	0.725

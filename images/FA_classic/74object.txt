@@ -1,0 +1,6 @@
+Tower	0.831
+Screenshot	0.673
+High-rise building	0.652
+Graphic design	0.588
+Graphics	0.574
+Operating system	0.540

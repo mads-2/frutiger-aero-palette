@@ -1,0 +1,5 @@
+Blue	0.989
+Graphics	0.692
+Design	0.676
+Graphic design	0.584
+Living room	0.516

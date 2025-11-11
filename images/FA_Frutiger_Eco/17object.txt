@@ -1,0 +1,6 @@
+Green	0.982
+Graphic design	0.784
+Graphics	0.751
+Sphere	0.729
+Design	0.664
+Science	0.590

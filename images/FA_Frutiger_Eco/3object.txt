@@ -1,0 +1,8 @@
+Tower	0.836
+High-rise building	0.788
+Skyscraper	0.690
+Design	0.674
+Graphics	0.646
+Graphic design	0.603
+Cityscape	0.593
+Science	0.525

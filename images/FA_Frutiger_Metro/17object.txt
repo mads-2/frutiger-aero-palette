@@ -1,0 +1,10 @@
+Entertainment	0.920
+Physical fitness	0.903
+Happiness	0.900
+Advertising	0.893
+Performing Arts	0.856
+Poster	0.774
+Exercise	0.747
+Graphic design	0.621
+Modern dance	0.602
+Zumba	0.564

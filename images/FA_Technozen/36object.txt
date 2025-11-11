@@ -1,0 +1,10 @@
+Animation	0.846
+Living room	0.823
+Couch	0.790
+Daybed	0.784
+Design	0.694
+Graphics	0.673
+PC game	0.550
+Graphic design	0.540
+Sofa bed	0.517
+3D modeling	0.503

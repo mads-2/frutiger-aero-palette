@@ -1,0 +1,6 @@
+Orange	0.969
+Yellow	0.966
+Graphic design	0.677
+Graphics	0.657
+Heat	0.553
+Lens flare	0.520

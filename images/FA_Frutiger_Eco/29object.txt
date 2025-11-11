@@ -1,0 +1,10 @@
+Pharmaceutical drug	0.929
+Medicine	0.879
+Prescription drug	0.856
+Pill	0.842
+Plastic	0.704
+Health Care	0.674
+Medical	0.632
+Analgesic	0.628
+Nutraceutical	0.542
+Stimulant	0.517

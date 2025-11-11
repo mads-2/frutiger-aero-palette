@@ -1,0 +1,3 @@
+Graphic design	0.660
+Graphics	0.658
+Science	0.505

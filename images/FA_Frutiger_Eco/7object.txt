@@ -1,0 +1,10 @@
+Solar panel	0.959
+Solar energy	0.941
+Solar power	0.932
+Wind turbine	0.891
+Technology	0.889
+Wind farm	0.881
+Wind	0.735
+Windmill	0.683
+Design	0.673
+Science	0.601

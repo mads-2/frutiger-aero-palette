@@ -1,0 +1,10 @@
+Fruit	0.916
+Natural foods	0.819
+Produce	0.805
+Berry	0.792
+Strawberries	0.674
+Strawberry	0.656
+Clip art	0.655
+Graphics	0.651
+Bubble	0.538
+Food	0.519

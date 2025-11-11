@@ -1,0 +1,10 @@
+Mode of transport	0.979
+Transport	0.969
+Public transport	0.949
+Glass	0.869
+Train	0.867
+Rolling stock	0.817
+Rapid transit	0.770
+Transparency	0.729
+Cleanliness	0.629
+Rail transport	0.552

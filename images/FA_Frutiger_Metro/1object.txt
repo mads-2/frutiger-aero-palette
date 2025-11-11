@@ -1,0 +1,5 @@
+Orange	0.971
+Yellow	0.968
+Graphic design	0.730
+Graphics	0.717
+Triangle	0.539

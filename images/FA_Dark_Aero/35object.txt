@@ -1,0 +1,7 @@
+Technology	0.876
+Graphics	0.695
+Graphic design	0.670
+Design	0.667
+Lens flare	0.612
+Fractal art	0.597
+Science	0.549

@@ -1,0 +1,7 @@
+Technology	0.853
+Earth	0.738
+Science	0.610
+Graphic design	0.609
+Graphics	0.595
+Sphere	0.536
+Globe	0.514

@@ -1,0 +1,10 @@
+Electronic device	0.933
+Flowerpot	0.915
+Houseplant	0.826
+Gadget	0.795
+Vase	0.679
+Laptop	0.611
+Aloes	0.581
+Office supplies	0.575
+Computer	0.534
+Flat-panel display	0.515

@@ -1,0 +1,10 @@
+Glass	0.773
+Sphere	0.727
+Design	0.666
+Wind	0.629
+Graphics	0.618
+Animation	0.563
+Dome	0.537
+Bubble	0.530
+Science	0.527
+Graphic design	0.516

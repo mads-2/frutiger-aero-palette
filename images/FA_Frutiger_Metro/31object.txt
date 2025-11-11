@@ -1,0 +1,10 @@
+Entertainment	0.937
+Music	0.915
+Musical ensemble	0.882
+Performing Arts	0.847
+Musical instrument	0.812
+Chordophone	0.805
+Graphic design	0.751
+Silhouette	0.750
+Jazz	0.725
+String instrument	0.723

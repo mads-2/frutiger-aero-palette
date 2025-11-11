@@ -1,0 +1,7 @@
+Yellow	0.953
+Technology	0.859
+Graphic design	0.748
+Graphics	0.685
+Design	0.681
+Wallpaper	0.510
+Science	0.507

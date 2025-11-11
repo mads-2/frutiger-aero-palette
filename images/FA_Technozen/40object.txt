@@ -1,0 +1,10 @@
+Furniture	0.986
+Flooring	0.975
+Wood	0.971
+Interior design	0.969
+Floor	0.967
+Shelving	0.962
+Shelf	0.956
+Room	0.944
+Lighting	0.941
+Wood stain	0.863

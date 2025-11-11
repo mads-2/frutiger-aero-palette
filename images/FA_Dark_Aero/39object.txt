@@ -1,0 +1,4 @@
+Technology	0.836
+Graphics	0.704
+Graphic design	0.677
+Operating system	0.558

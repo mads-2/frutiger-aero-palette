@@ -1,0 +1,4 @@
+Blue	0.988
+Graphics	0.657
+Wind	0.581
+Graphic design	0.581

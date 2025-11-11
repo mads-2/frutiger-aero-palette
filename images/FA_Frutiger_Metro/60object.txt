@@ -1,0 +1,6 @@
+Entertainment	0.797
+Graphic design	0.782
+Poster	0.778
+Graphics	0.740
+Design	0.677
+Animation	0.668

@@ -1,0 +1,10 @@
+Blue	0.989
+Sphere	0.853
+Natural material	0.828
+Glass	0.803
+Marble	0.739
+Plastic	0.702
+Silver	0.695
+Ball	0.693
+Bead	0.688
+Gemstone	0.620

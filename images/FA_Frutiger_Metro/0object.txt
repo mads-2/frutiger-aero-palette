@@ -1,0 +1,5 @@
+Entertainment	0.844
+Graphic design	0.781
+Graphics	0.751
+Design	0.685
+Disco	0.680

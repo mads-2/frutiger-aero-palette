@@ -1,0 +1,9 @@
+Blue	0.988
+Graphics	0.715
+Animation	0.697
+Graphic design	0.682
+Sphere	0.609
+Science	0.539
+Underwater	0.530
+Clip art	0.523
+Fish	0.513

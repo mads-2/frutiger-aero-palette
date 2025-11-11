@@ -1,0 +1,5 @@
+Orange	0.979
+Red	0.978
+Yellow	0.969
+Heat	0.797
+Lens flare	0.578

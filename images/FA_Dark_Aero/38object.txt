@@ -1,0 +1,8 @@
+Green	0.974
+Technology	0.862
+Graphic design	0.734
+Graphics	0.704
+Science	0.621
+Lens flare	0.589
+Night	0.524
+Sphere	0.502

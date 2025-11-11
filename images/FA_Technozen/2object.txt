@@ -1,0 +1,10 @@
+Furniture	0.974
+Interior design	0.941
+Flooring	0.918
+Table	0.910
+Floor	0.889
+Restaurant	0.854
+Chair	0.815
+Varnish	0.637
+Wood stain	0.619
+Cafeteria	0.612

@@ -1,0 +1,10 @@
+Electronic device	0.981
+Display device	0.955
+Furniture	0.942
+Computer monitor	0.930
+Desktop computer	0.929
+Peripheral	0.926
+Personal computer	0.915
+Office Equipment	0.915
+Interior design	0.902
+Computer	0.896

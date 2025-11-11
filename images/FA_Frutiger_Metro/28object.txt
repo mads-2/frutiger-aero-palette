@@ -1,0 +1,4 @@
+Graphic design	0.766
+Graphics	0.711
+Design	0.691
+Loudspeaker	0.517

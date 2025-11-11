@@ -1,0 +1,7 @@
+Glass	0.814
+Daylighting	0.717
+Shade	0.707
+Headquarters	0.524
+Sedges	0.513
+Walkway	0.506
+Aluminium	0.501

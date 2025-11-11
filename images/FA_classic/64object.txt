@@ -1,0 +1,10 @@
+Fish	0.990
+Clownfish	0.964
+Marine biology	0.946
+Ocellaris clownfish	0.924
+Underwater	0.903
+Fin	0.898
+Coral reef fish	0.898
+Pomacentridae	0.820
+Animation	0.797
+Aquarium	0.725

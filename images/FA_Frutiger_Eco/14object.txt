@@ -1,0 +1,10 @@
+Blue	0.988
+Earth	0.969
+Globe	0.963
+Planet	0.936
+Sphere	0.930
+Technology	0.880
+Map	0.867
+Astronomical object	0.838
+Atlas	0.687
+Science	0.642

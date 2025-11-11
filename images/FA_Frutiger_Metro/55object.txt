@@ -1,0 +1,4 @@
+Pink	0.910
+Graphic design	0.785
+Graphics	0.728
+Design	0.675

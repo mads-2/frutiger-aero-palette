@@ -1,0 +1,3 @@
+Orange	0.958
+Clip art	0.784
+Graphics	0.651

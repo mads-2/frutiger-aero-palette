@@ -1,0 +1,8 @@
+Globe	0.851
+Planet	0.804
+Earth	0.760
+Sphere	0.745
+Agriculture	0.613
+Meteorological phenomenon	0.596
+Science	0.590
+Plantation	0.543

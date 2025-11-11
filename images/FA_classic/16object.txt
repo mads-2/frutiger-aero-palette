@@ -1,0 +1,6 @@
+Living room	0.779
+Design	0.672
+Daybed	0.647
+Paint	0.623
+Couch	0.577
+Recreational vehicle	0.512

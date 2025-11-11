@@ -1,0 +1,10 @@
+City	0.954
+Night	0.941
+Metropolitan area	0.925
+Metropolis	0.887
+Skyscraper	0.878
+High-rise building	0.876
+Commercial building	0.866
+Midnight	0.796
+Tower	0.793
+Skyline	0.790

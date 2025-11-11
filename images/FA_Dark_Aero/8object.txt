@@ -1,0 +1,3 @@
+Graphics	0.604
+Graphic design	0.541
+Fractal art	0.535

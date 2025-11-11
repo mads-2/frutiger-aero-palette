@@ -1,0 +1,7 @@
+Poster	0.791
+Illustration	0.775
+Graphic design	0.756
+Graphics	0.721
+Design	0.675
+Animation	0.675
+Animated cartoon	0.550

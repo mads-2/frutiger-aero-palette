@@ -1,0 +1,4 @@
+Orange	0.946
+Technology	0.848
+Graphic design	0.714
+Graphics	0.707

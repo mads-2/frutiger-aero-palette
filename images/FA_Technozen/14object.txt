@@ -1,0 +1,8 @@
+Grass	0.974
+Woody plant	0.806
+Lawn	0.774
+Shade	0.686
+Yard	0.639
+Landscaping	0.638
+Evergreen	0.636
+Backyard	0.592

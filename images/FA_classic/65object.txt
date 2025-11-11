@@ -1,0 +1,10 @@
+Blue	0.988
+Technology	0.851
+Operating system	0.759
+Software	0.704
+Screenshot	0.695
+Multimedia	0.616
+Computer	0.588
+Graphics	0.578
+Computer program	0.574
+Graphic design	0.565

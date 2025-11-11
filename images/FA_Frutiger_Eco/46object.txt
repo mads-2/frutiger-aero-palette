@@ -1,0 +1,10 @@
+Sphere	0.764
+Meteorological phenomenon	0.669
+Graphic design	0.661
+Graphics	0.655
+Earth	0.650
+Cumulus	0.617
+Globe	0.609
+Bubble	0.583
+Science	0.555
+Wind	0.552

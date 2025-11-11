@@ -1,0 +1,5 @@
+Graphic design	0.643
+Graphics	0.641
+Science	0.572
+Earth	0.545
+Globe	0.533

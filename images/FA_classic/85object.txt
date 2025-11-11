@@ -1,0 +1,10 @@
+Electronic device	0.973
+Cloud	0.941
+Computer	0.911
+Display device	0.905
+Personal computer	0.898
+Peripheral	0.884
+Output device	0.881
+Technology	0.869
+Computer hardware	0.847
+Flat-panel display	0.786

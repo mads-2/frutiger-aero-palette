@@ -1,0 +1,6 @@
+Red	0.975
+Orange	0.970
+Technology	0.849
+Graphic design	0.724
+Graphics	0.689
+Design	0.665

@@ -1,0 +1,10 @@
+Blue	0.988
+Red	0.976
+White	0.966
+Yellow	0.962
+Pink	0.917
+Orange	0.901
+Visual arts	0.887
+Graphic design	0.811
+Graphics	0.780
+Design	0.696

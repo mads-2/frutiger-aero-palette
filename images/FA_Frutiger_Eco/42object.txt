@@ -1,0 +1,7 @@
+Earth	0.758
+Sphere	0.723
+Globe	0.696
+Graphics	0.599
+Planet	0.580
+Science	0.542
+Agriculture	0.523

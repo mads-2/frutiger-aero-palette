@@ -1,0 +1,6 @@
+Graphic design	0.626
+Graphics	0.608
+Compact disc	0.591
+Astronomical object	0.573
+Star	0.507
+Psychedelic art	0.504

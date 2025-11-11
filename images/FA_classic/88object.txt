@@ -1,0 +1,7 @@
+Green	0.979
+Interior design	0.925
+Graphics	0.680
+Design	0.667
+Wallpaper	0.557
+Graphic design	0.513
+Hotel	0.512

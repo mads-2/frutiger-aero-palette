@@ -1,0 +1,10 @@
+Electronic device	0.983
+Gadget	0.958
+Electronics	0.903
+Technology	0.890
+Display device	0.760
+Multimedia	0.679
+Plastic	0.662
+Video game console	0.633
+Wii	0.598
+Peripheral	0.576

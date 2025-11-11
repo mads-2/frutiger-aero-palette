@@ -1,0 +1,10 @@
+Fish	0.946
+Marine biology	0.854
+Fin	0.777
+Goldfish	0.759
+Underwater	0.739
+Animation	0.655
+Graphics	0.645
+Clip art	0.629
+Marine invertebrates	0.592
+Aquarium	0.589

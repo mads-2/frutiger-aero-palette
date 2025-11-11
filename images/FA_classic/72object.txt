@@ -1,0 +1,7 @@
+High-rise building	0.846
+Condominium	0.766
+Cityscape	0.669
+Palm trees	0.632
+Intersection	0.576
+Skyscraper	0.562
+Highway	0.503

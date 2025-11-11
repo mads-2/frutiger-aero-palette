@@ -1,0 +1,7 @@
+Graphic design	0.773
+Logo	0.726
+Graphics	0.720
+Design	0.675
+Poster	0.665
+Symbol	0.654
+Clip art	0.577

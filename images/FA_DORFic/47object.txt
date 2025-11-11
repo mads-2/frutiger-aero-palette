@@ -1,0 +1,3 @@
+Orange	0.911
+Animation	0.712
+Heat	0.568

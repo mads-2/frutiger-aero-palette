@@ -1,0 +1,10 @@
+Blue	0.989
+Cloud	0.911
+Fictional character	0.885
+Cartoon	0.839
+Animation	0.801
+Video Game Software	0.797
+Meteorological phenomenon	0.770
+Game	0.752
+Graphics	0.689
+Animated cartoon	0.634

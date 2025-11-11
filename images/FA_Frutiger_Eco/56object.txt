@@ -1,0 +1,8 @@
+Cloud	0.944
+Earth	0.808
+Cumulus	0.764
+Agriculture	0.709
+Meteorological phenomenon	0.690
+Planet	0.630
+Sphere	0.579
+Plantation	0.507

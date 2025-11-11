@@ -1,0 +1,8 @@
+Blue	0.989
+Graphic design	0.772
+Graphics	0.742
+Creative arts	0.705
+Fractal art	0.702
+Design	0.682
+Sphere	0.572
+Wallpaper	0.509

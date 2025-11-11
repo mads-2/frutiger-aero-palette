@@ -1,0 +1,10 @@
+Electronic device	0.990
+Display device	0.966
+Computer	0.939
+Personal computer	0.925
+Office Equipment	0.918
+Computer monitor	0.907
+Peripheral	0.901
+Gadget	0.899
+Electronics	0.879
+Multimedia	0.874

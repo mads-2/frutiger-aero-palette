@@ -1,0 +1,5 @@
+Entertainment	0.903
+Performing Arts	0.887
+Graphic design	0.763
+Graphics	0.709
+Dance	0.649

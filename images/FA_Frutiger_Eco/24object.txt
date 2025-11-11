@@ -1,0 +1,5 @@
+Garden	0.811
+Animation	0.584
+Agriculture	0.556
+Science	0.537
+Earth	0.516

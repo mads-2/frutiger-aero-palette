@@ -1,0 +1,10 @@
+Handheld game console	0.982
+Video game console	0.975
+White	0.970
+Nintendo DS	0.966
+Electronic device	0.957
+Gadget	0.952
+Portable Electronic Game	0.923
+Game controller	0.732
+Electronics	0.711
+Silver	0.694

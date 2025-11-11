@@ -1,0 +1,10 @@
+Electronic device	0.968
+Display device	0.947
+Technology	0.876
+Machine	0.799
+Television set	0.761
+Home appliance	0.743
+Computer monitor	0.739
+Output device	0.714
+Electronics	0.713
+Multimedia	0.696

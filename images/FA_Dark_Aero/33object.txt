@@ -1,0 +1,8 @@
+Electronic device	0.908
+Technology	0.874
+Gadget	0.823
+Screenshot	0.770
+Video Game Software	0.757
+Multimedia	0.681
+Software	0.632
+Game controller	0.555

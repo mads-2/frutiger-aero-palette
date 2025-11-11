@@ -1,0 +1,10 @@
+Fruit	0.989
+Citrus	0.978
+Produce	0.971
+Food	0.949
+Ingredient	0.943
+Natural foods	0.928
+Liquid	0.918
+Rangpur	0.902
+Lemon	0.900
+Orange	0.876

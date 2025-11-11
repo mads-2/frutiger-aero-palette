@@ -1,0 +1,6 @@
+Blue	0.989
+Technology	0.861
+Graphic design	0.735
+Graphics	0.734
+Design	0.680
+Science	0.557

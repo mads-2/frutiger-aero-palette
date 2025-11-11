@@ -1,0 +1,10 @@
+Electronic device	0.928
+Display device	0.922
+Orange	0.904
+Screenshot	0.872
+Technology	0.857
+Number	0.800
+Software	0.766
+Multimedia	0.751
+Gadget	0.729
+Electronics	0.718

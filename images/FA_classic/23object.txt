@@ -1,0 +1,7 @@
+Bottle	0.940
+Personal care	0.848
+Fruit	0.709
+Household Supply	0.663
+Plastic bottle	0.568
+Produce	0.536
+Natural foods	0.536

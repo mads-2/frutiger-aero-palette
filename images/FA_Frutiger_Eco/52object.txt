@@ -1,0 +1,7 @@
+Advertising	0.727
+Graphic design	0.625
+Graphics	0.581
+Publication	0.569
+Agriculture	0.556
+Science	0.501
+Screenshot	0.501

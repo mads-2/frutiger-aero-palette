@@ -1,0 +1,8 @@
+Electronic device	0.960
+Gadget	0.918
+Technology	0.852
+Display device	0.829
+Electronics	0.791
+Watch	0.701
+Portable Electronic Game	0.565
+Clock	0.532

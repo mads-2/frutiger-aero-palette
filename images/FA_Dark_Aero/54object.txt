@@ -1,0 +1,5 @@
+Green	0.974
+Design	0.683
+Graphics	0.647
+Night	0.535
+Graphic design	0.507

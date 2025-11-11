@@ -1,0 +1,10 @@
+Pink	0.954
+Purple	0.862
+Floral design	0.751
+Creative arts	0.750
+Graphics	0.697
+Design	0.669
+Graphic design	0.654
+Motif	0.608
+Wallpaper	0.589
+Wrapping Paper	0.519

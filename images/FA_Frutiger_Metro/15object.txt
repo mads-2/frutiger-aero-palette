@@ -1,0 +1,7 @@
+Yellow	0.961
+Pink	0.883
+Graphic design	0.797
+Graphics	0.754
+Design	0.690
+Floral design	0.529
+Fractal art	0.508

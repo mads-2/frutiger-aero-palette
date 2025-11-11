@@ -1,0 +1,4 @@
+Green	0.986
+Design	0.682
+Graphics	0.680
+Graphic design	0.639

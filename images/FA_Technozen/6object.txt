@@ -1,0 +1,10 @@
+Interior design	0.968
+Ceiling	0.909
+Design	0.669
+Graphics	0.661
+Cleanliness	0.604
+Hotel	0.569
+Graphic design	0.558
+Animation	0.537
+Daybed	0.527
+Waiting room	0.515

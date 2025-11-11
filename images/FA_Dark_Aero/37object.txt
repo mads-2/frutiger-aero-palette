@@ -1,0 +1,2 @@
+Blue	0.989
+Graphics	0.665

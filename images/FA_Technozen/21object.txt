@@ -1,0 +1,6 @@
+Wallpaper	0.756
+Design	0.682
+Graphics	0.621
+Floral design	0.607
+Graphic design	0.574
+Bamboo	0.541

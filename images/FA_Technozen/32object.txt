@@ -1,0 +1,10 @@
+Tennis court	0.896
+Sports	0.876
+Tennis--Equipment and supplies	0.866
+Soft tennis	0.859
+Racquet sport	0.838
+Tennis	0.832
+Individual sport	0.788
+Sports venue	0.723
+Racketlon	0.711
+Net sport	0.694

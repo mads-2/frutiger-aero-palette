@@ -1,0 +1,5 @@
+Blue	0.989
+Video Game Software	0.776
+Screenshot	0.714
+Graphics	0.590
+Graphic design	0.555

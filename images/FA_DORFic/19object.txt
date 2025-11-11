@@ -1,0 +1,4 @@
+Orange	0.964
+Yellow	0.958
+Graphics	0.620
+Graphic design	0.612

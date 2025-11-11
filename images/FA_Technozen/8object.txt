@@ -1,0 +1,10 @@
+Flooring	0.976
+Floor	0.975
+Wood flooring	0.788
+Living room	0.672
+Houseplant	0.650
+Laminate flooring	0.647
+Cleanliness	0.597
+Daybed	0.591
+Human back	0.568
+Foot	0.560

@@ -1,0 +1,2 @@
+Blue	0.988
+Animation	0.755

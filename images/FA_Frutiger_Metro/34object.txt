@@ -1,0 +1,10 @@
+Metropolis	0.905
+High-rise building	0.878
+Skyscraper	0.874
+Cityscape	0.810
+Tower	0.771
+Skyline	0.731
+Graphic design	0.710
+Poster	0.704
+Design	0.688
+Graphics	0.660

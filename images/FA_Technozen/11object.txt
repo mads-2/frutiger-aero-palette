@@ -1,0 +1,10 @@
+Furniture	0.984
+Flooring	0.974
+Interior design	0.968
+Floor	0.967
+Couch	0.962
+Living room	0.960
+Home	0.907
+Comfort	0.905
+Daybed	0.904
+Room	0.867

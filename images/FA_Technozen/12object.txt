@@ -1,0 +1,8 @@
+Office Equipment	0.907
+Electronic device	0.895
+Screenshot	0.763
+Display device	0.699
+Computer	0.635
+Space bar	0.605
+Software	0.567
+Personal computer	0.565

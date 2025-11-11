@@ -1,0 +1,6 @@
+Yellow	0.981
+Orange	0.969
+Petal	0.895
+Graphics	0.735
+Graphic design	0.643
+Daisy family	0.570
