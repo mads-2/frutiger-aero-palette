@@ -33,20 +33,16 @@ body {
   overflow: hidden;
 }
 
-/* clickable = purple */
+/* Outlines for debugging */
 .tab, .btn { outline: 2px solid rgba(136, 85, 255, 0.5); }
-
-/* hoverable = grey */
 .object-slot, .color-bar { outline: 2px solid rgba(140, 140, 140, 0.3); }
 
-/* Tabs */
 .tabbar {
   display: flex;
   gap: 10px;
   padding: 10px 20px 0;
 }
 .tab {
-  position: relative;
   background: var(--panel);
   border: 1px solid var(--border);
   border-bottom: none;
@@ -57,12 +53,10 @@ body {
   place-items: center;
   font-weight: 600;
   cursor: pointer;
-  transition: 0.15s ease;
 }
 .tab:hover { background: rgba(255,255,255,0.9); transform: translateY(-2px); }
 .tab.active { background: #fff; box-shadow: var(--shadow); }
 
-/* full-name hint bar under tabs */
 #tab-hint {
   height: 32px;
   display: flex;
@@ -70,25 +64,20 @@ body {
   padding: 0 22px;
   font-size: 1rem;
   font-weight: 600;
-  color: #1f2933;
   background: rgba(255,255,255,0.6);
   border-bottom: 1px solid rgba(0,0,0,0.03);
-  pointer-events: none;
   opacity: 0;
   transition: opacity 0.12s;
 }
 #tab-hint.show { opacity: 1; }
 
-/* layout shell */
 .shell {
   flex: 1;
   display: flex;
   gap: 20px;
   padding: 0 24px 20px;
-  overflow: hidden;
 }
 
-/* panels */
 .left-panel, .right-panel {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -97,147 +86,193 @@ body {
   box-shadow: var(--shadow);
 }
 
+/* LEFT PANEL -------------------------------------------------------- */
 .left-panel {
   flex: 1;
   padding: 18px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 18px;
 }
-h1 {
-  margin: 0;
-  font-size: 1.7rem;
-  font-weight: 600;
-  text-align: left;
-}
 
-/* 3 × 4 ICON GRID */
+/* Updated circle grid to fit on one screen */
 .object-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 34px;
-  justify-content: center;
-  align-content: center;
-  margin-left: 24px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-left: 6px;
+  margin-top: 10px;
+  height: calc(100vh - 220px);
+  align-content: start;
 }
-.object-slot {
+
+.object-slot-wrapper {
   position: relative;
-  background: rgba(255,255,255,0.8);
-  border-radius: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 1 / 1;
-  max-height: 170px;
-  min-height: 150px;
-  transition: 0.15s ease;
-  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 120px;
 }
-.object-slot:hover {
-  background: rgba(255,255,255,0.95);
-  transform: translateY(-3px);
-}
-.object-label {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 1rem;
-  color: #222;
-  background: rgba(255,255,255,0.75);
-  opacity: 0;
-  transition: opacity 0.15s ease;
-}
-.object-slot:hover .object-label { opacity: 1; }
 
-/* Buttons */
-.download-panel {
-  display: flex;
-  gap: 12px;
-  justify-content: left;
-  padding-top: 6px;
-}
-.btn {
-  background: #fff;
-  border: 1px solid var(--border);
+.object-slot {
+  background: rgba(255,255,255,0.85);
   border-radius: 999px;
-  padding: 8px 16px;
-  font-size: 0.8rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: 0.15s ease;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.04);
-}
-.btn svg { width: 14px; height: 14px; fill: #333; opacity: 0.6; }
-.btn:hover { background: var(--accent); transform: translateY(-1px); }
-
-/* right panel (colors) */
-.right-panel {
-  width: 220px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  overflow-y: auto; /* scroll if many colors */
-}
-.color-column {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.color-bar {
-  height: 48px;
-  border-radius: 8px;
-  cursor: pointer;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.object-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.object-number {
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  font-size: 0.85rem;
   font-weight: 600;
-  color: #333;
-  transition: 0.15s ease;
 }
-.color-bar:hover { filter: brightness(1.1); transform: translateY(-2px); }
 
-/* bottom bar */
-.bottom-bar {
-  margin-top: 20px;
-  background: rgba(255,255,255,0.65);
-  border-top: 1px solid var(--border);
-  border-radius: 0 0 var(--radius) var(--radius);
-  text-align: center;
-  font-size: 0.8rem;
+.object-slot:hover { transform: translateY(-3px); }
+
+/* RIGHT PANEL ------------------------------------------------------ */
+.right-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow);
+  width: 320px;
+  padding: 14px;
+  overflow-y: auto;
+  height: 66vh; 
+  align-self: flex-start;
+}
+
+/* Color bars smaller + 2 columns */
+.color-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.color-bar {
+  height: 26px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 6px;
+  white-space: nowrap;
+}
+
+/* Popup background */
+#popup-bg {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+}
+
+#popup-box {
+  width: 340px;
+  background: white;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+#popup-close {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* Popup contents */
+.object-entry {
+  background: #e8e8e8;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin: 6px 0;
+  cursor: pointer;
+  position: relative;
+}
+.object-entry:hover { background: #f0f0f0; }
+.object-entry-count {
+  position: absolute;
+  bottom: -12px;
+  right: 4px;
+  font-size: 0.7rem;
+  color: #555;
+}
+
+.syn-popup {
+  background: #f2f2f2;
+  border-radius: 6px;
   padding: 8px;
-  color: #333;
+  margin-top: 10px;
+  display: none;
+  position: relative;
 }
 
-/* toast */
+.syn-close {
+  position: absolute;
+  top: 2px;
+  right: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
 #copy-toast {
   position: fixed;
   bottom: 20px;
   right: 20px;
   background: rgba(40,40,50,0.9);
-  color: #fff;
   padding: 6px 14px;
   border-radius: 999px;
-  font-size: 0.75rem;
   opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s;
 }
 #copy-toast.show { opacity: 1; }
+
+/* Compare Colors button */
+#compare-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: #fff;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: 2px solid rgba(136,85,255,0.5);
+  box-shadow: var(--shadow);
+  z-index: 2000;
+}
+#compare-btn:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+}
 </style>
 </head>
 
 <body>
 
-<!-- Tabs -->
+<button id="compare-btn">Compare Colors</button>
+
 <div class="tabbar">
   <div class="tab active" data-key="FA" data-full="Frutiger Aero">FA</div>
   <div class="tab" data-key="D" data-full="DORFic">D</div>
@@ -247,28 +282,18 @@ h1 {
   <div class="tab" data-key="DA" data-full="Dark Aero">DA</div>
 </div>
 
-<!-- full-name strip -->
 <div id="tab-hint"></div>
 
-<!-- Main -->
 <div class="shell">
   <section class="left-panel">
     <h1 id="title">Frutiger Aero</h1>
+
     <div class="object-grid" id="object-grid"></div>
 
-    <div class="download-panel">
-      <button class="btn" id="download-objects">
-        <svg viewBox="0 0 24 24"><path d="M12 3v12.17l3.59-3.58L17 13l-5 5-5-5 1.41-1.41L11 15.17V3h1z"/><path d="M5 18h14v2H5z"/></svg>
-        objects.txt
-      </button>
-      <button class="btn" id="download-colors">
-        <svg viewBox="0 0 24 24"><path d="M12 3v12.17l3.59-3.58L17 13l-5 5-5-5 1.41-1.41L11 15.17V3h1z"/><path d="M5 18h14v2H5z"/></svg>
-        colors.txt
-      </button>
-    </div>
+    <!-- REMOVED DOWNLOAD PANEL -->
 
     <div class="bottom-bar">
-      Data gathered from <strong id="data-count">0</strong> hand-selected images
+      Data gathered from <strong id="data-count">0</strong> images
     </div>
   </section>
 
@@ -278,6 +303,25 @@ h1 {
 </div>
 
 <div id="copy-toast">Copied!</div>
+
+<!-- Popup -->
+<div id="popup-bg">
+  <div id="popup-box">
+    <div id="popup-close">x</div>
+
+    <div class="object-entry" data-syn="object">
+      object
+      <div class="object-entry-count">3</div>
+    </div>
+
+    <div class="syn-popup" id="syn-popup">
+      <div class="syn-close">x</div>
+      <div>thing</div>
+      <div>item</div>
+      <div>entity</div>
+    </div>
+  </div>
+</div>
 
 <script>
 const aestheticsConfig = {
@@ -289,57 +333,73 @@ const aestheticsConfig = {
   "DA": { folder: "/images/FA_Dark_Aero", full: "Dark Aero", count: 50 }
 };
 
-const tabs        = document.querySelectorAll(".tab");
-const titleEl     = document.getElementById("title");
-const objectGrid  = document.getElementById("object-grid");
+const titleEl = document.getElementById("title");
+const objectGrid = document.getElementById("object-grid");
 const colorColumn = document.getElementById("color-column");
-const countEl     = document.getElementById("data-count");
-const toast       = document.getElementById("copy-toast");
-const dlColors    = document.getElementById("download-colors");
-const dlObjects   = document.getElementById("download-objects");
-const tabHint     = document.getElementById("tab-hint");
+const countEl = document.getElementById("data-count");
+const toast = document.getElementById("copy-toast");
+const popupBG = document.getElementById("popup-bg");
+const popupClose = document.getElementById("popup-close");
+const synPopup = document.getElementById("syn-popup");
+const synClose = document.querySelector(".syn-close");
 
 let currentKey = "FA";
 
+function pickTextColor(hex) {
+  const r = parseInt(hex.substring(1, 3), 16);
+  const g = parseInt(hex.substring(3, 5), 16);
+  const b = parseInt(hex.substring(5, 7), 16);
+  const brightness = (r*299 + g*587 + b*114)/1000;
+  return brightness < 128 ? "#FFFFFF" : "#000000";
+}
+
 async function loadAestheticData(key) {
   const { folder, count } = aestheticsConfig[key];
-  const data = { colors: [], objects: [], count };
+  let colors = [];
+  const objects = Array.from({ length: 20 }, (_, i) =>
+    `/dashboard/drawn/${i}.png`
+  );
 
   try {
     const res = await fetch(`${folder}/colors.txt`);
-    if (res.ok) {
-      const text = await res.text();
-      data.colors = text
-        .split(/\r?\n/)
-        .map(l => l.trim())
-        .filter(l => /^#?[A-Fa-f0-9]{6}/.test(l))
-        .map(l => "#" + l.replace("#","").split(/\s+/)[0]);
-    }
-  } catch (err) {
-    console.warn(`Could not load colors.txt for ${key}:`, err);
+    const text = await res.text();
+
+    colors = text.split(/\r?\n/)
+      .map(s => s.trim())
+      .filter(s => /^#?[A-Fa-f0-9]{6}$/.test(s))
+      .map(s => (s.startsWith("#") ? s : "#" + s));
+
+  } catch(e) {
+    colors = ["#CCCCCC"];
   }
 
-  data.objects = Array.from({ length: 12 }, (_, i) => `${folder}/${i}.png`);
-  return data;
+  return { colors, objects, count };
 }
 
 function render(key, data) {
-  const { full } = aestheticsConfig[key];
-  titleEl.textContent = full;
+  titleEl.textContent = aestheticsConfig[key].full;
   countEl.textContent = data.count;
 
-  objectGrid.innerHTML = data.objects
-    .map(o => `
+  objectGrid.innerHTML = data.objects.map((src, i) => `
+    <div class="object-slot-wrapper" data-index="${i}">
       <div class="object-slot">
-        <img src="${o}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">
-        <div class="object-label">${o.split('/').pop()}</div>
+        <img src="${src}" onerror="this.style.display='none'">
       </div>
-    `)
-    .join("");
+      <div class="object-number">${i+1}</div>
+    </div>
+  `).join("");
 
-  colorColumn.innerHTML = data.colors
-    .map(c => `<div class="color-bar" style="background:${c}" data-hex="${c}">${c}</div>`)
-    .join("");
+  document.querySelectorAll(".object-slot-wrapper").forEach(slot => {
+    slot.addEventListener("click", () => {
+      popupBG.style.display = "flex";
+    });
+  });
+
+  colorColumn.innerHTML = data.colors.map(c => `
+    <div class="color-bar" style="background:${c}; color:${pickTextColor(c)}" data-hex="${c}">
+      ${c}
+    </div>
+  `).join("");
 }
 
 colorColumn.addEventListener("click", e => {
@@ -347,29 +407,18 @@ colorColumn.addEventListener("click", e => {
   if (!bar) return;
   navigator.clipboard.writeText(bar.dataset.hex);
   toast.classList.add("show");
-  setTimeout(() => toast.classList.remove("show"), 1000);
+  setTimeout(() => toast.classList.remove("show"), 900);
 });
 
-dlColors.addEventListener("click", () => {
-  const { folder } = aestheticsConfig[currentKey];
-  const a = document.createElement("a");
-  a.href = `${folder}/colors.txt`;
-  a.download = `${currentKey}_colors.txt`;
-  a.click();
-});
-
-dlObjects.addEventListener("click", () => {
-  alert("objects.txt download functionality will be added later.");
-});
-
-tabs.forEach(tab => {
+document.querySelectorAll(".tab").forEach(tab => {
   tab.addEventListener("mouseenter", () => {
     tabHint.textContent = aestheticsConfig[tab.dataset.key].full;
     tabHint.classList.add("show");
   });
   tab.addEventListener("mouseleave", () => tabHint.classList.remove("show"));
+
   tab.addEventListener("click", async () => {
-    tabs.forEach(t => t.classList.remove("active"));
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
     tab.classList.add("active");
     currentKey = tab.dataset.key;
     const data = await loadAestheticData(currentKey);
@@ -377,11 +426,26 @@ tabs.forEach(tab => {
   });
 });
 
+popupClose.addEventListener("click", () => popupBG.style.display = "none");
+
+document.querySelector(".object-entry").addEventListener("click", () => {
+  synPopup.style.display = "block";
+});
+
+synClose.addEventListener("click", () => {
+  synPopup.style.display = "none";
+});
+
+document.getElementById("compare-btn").addEventListener("click", () => {
+  window.open("/dashboard/color_plot_output.html", "_blank");
+});
+
 (async () => {
   const data = await loadAestheticData(currentKey);
   render(currentKey, data);
 })();
 </script>
+
 </body>
 </html>
 
