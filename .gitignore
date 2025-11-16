@@ -137,3 +137,6 @@ dashboard/prototype/oldprototype.html
 dashboard/prototype/wprototype.html
 images/FA_classic/81_labeledcolor.txt
 objects/test_vectors.py
+dashboard/export_slides.py
+dashboard/~.pptx
+dashboard/learn.pdf
