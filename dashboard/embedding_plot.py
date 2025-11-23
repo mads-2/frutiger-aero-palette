@@ -86,10 +86,10 @@ CLUSTERS = {
 
     # --------------------------------------------------------
     "FA_Frutiger_Metro": [
-        ["Freestyle_Motorcross", "Bmx", "Stunt_Performer"],
-        ["Exercise", "Physical_Fitness", "Zumba"],
+        ["Freestyle_Motocross", "Bmx"],
+        ["Physical_Fitness", "Zumba"],
         ["Black", "Monochrome", "White"],
-        ["Animation", "Cartoon"],
+        ["Animation", "Animated_Cartoon"],
         ["Glass_Bottle", "Label", "Soft_Drink"],
         ["Fixed-Wing_Aircraft", "Aircraft", "Aerospace_Engineering"],
     ],
@@ -99,9 +99,10 @@ CLUSTERS = {
         ["Racketlon", "Soft_Tennis", "Tennis_Court", "Tennis_Equiptment_And_Supplies"],
         ["Bamboo", "Evergreen", "Aloes"],
         ["Steel", "Iron", "Metal", "Aluminum", "Silver"],
-        ["Bathroom", "Bathtub", "Laminate_Flooring", "Tile", "Plumbing"],
+        ["Bathroom", "Bathtub", "Tile", "Plumbing"],
         ["Houseplant", "Flower_Pot"],
         ["Car", "Car_Door", "Fender"],
+	["Office_Supplies", "Office_Equiptment", "Chair", "Office_Chair"],
     ],
 }
 
@@ -138,8 +139,7 @@ def run_tsne(vectors):
         init="pca",
         method="exact",
         early_exaggeration=12.0,
-        n_iter=1000,
-        n_iter_without_progress=300,
+        max_iter=1000,
     )
 
     return tsne.fit_transform(vectors)
