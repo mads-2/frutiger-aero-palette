@@ -92,8 +92,7 @@ body {
 /* Hover effects */
 .learn-tab-btn:hover,
 #compare-btn:hover,
-#embedding-btn:hover,
-#embedding-random-btn:hover {
+#embedding-btn:hover{
   background: var(--accent);
   transform: translateY(-2px);
 }
@@ -151,23 +150,6 @@ body {
   font-size:.95rem;
 }
 
-/* NEW: Non-deterministic embedding button */
-#embedding-random-btn {
-  margin-left:auto;
-  margin-top:6px;
-  background:#fff;
-  padding:7px 14px;
-  border-radius:999px;
-  outline:2px solid rgba(136,85,255,0.5);
-  box-shadow:var(--shadow);
-  cursor:pointer;
-  font-weight:600;
-  font-size:.78rem;
-  line-height:1.05rem;
-  text-align:center;
-  width:auto;
-  max-width:190px;
-}
 
 /********************
    OBJECT GRID
@@ -375,11 +357,6 @@ body {
       <!-- deterministic -->
       <button id="embedding-btn">Visualize Embedding Vectors</button>
 
-      <!-- non-deterministic -->
-      <button id="embedding-random-btn">
-        Visualize Embedding Vectors<br>(non-deterministic)
-      </button>
-
     </div>
 
     <div class="object-grid" id="object-grid"></div>
@@ -434,7 +411,6 @@ const popupTitle = document.getElementById("popup-title");
 const popupObjects = document.getElementById("popup-objects");
 
 const embeddingBtn = document.getElementById("embedding-btn");
-const embeddingRandomBtn = document.getElementById("embedding-random-btn");
 
 let currentKey = "FA";
 let cachedData = {};
@@ -546,17 +522,6 @@ function updateEmbeddingButton(aestheticKey) {
     embeddingBtn.style.display = "none";
   }
 
-  /* non-deterministic r_*.html */
-  const randomEmbedFile = "r_" + cfg.embed;
-
-  if (cfg.embed) {
-    embeddingRandomBtn.style.display = "inline-flex";
-    embeddingRandomBtn.onclick = () => {
-      window.open(`/dashboard/${randomEmbedFile}`, "_blank");
-    };
-  } else {
-    embeddingRandomBtn.style.display = "none";
-  }
 }
 
 /***************
