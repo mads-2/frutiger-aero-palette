@@ -1,272 +1,49 @@
-# Frutiger Aero — Analysis + Dashboard (bios611project)
+# Frutiger Aero Palette — Static Site
 
-## For Creatives (People Using the Dashboard for Inspiration)
+This repository contains a fully static, downloadable version of the **Frutiger Aero Palette Dashboard**, a visual exploration of color palettes, embeddings, and design elements found across Frutiger Aero and related aesthetics.
 
-This project provides an interactive exploration of the Frutiger Aero aesthetic through 3D color maps, semantic embeddings, and a visual dashboard. No technical background is required.
+The site is hosted at:
 
-Repository URL:  
-https://github.com/mads-2/bios611project
+https://mads-2.github.io/frutiger-aero-palette/
 
----
+You may also download the entire repository and open it locally; all files are self-contained and require no build step.
 
-### 1. Clone the Repository and Enter this Local Directory
+## Contents of This Static Site
 
----
+### Color Palettes
+Precomputed dominant color palettes for multiple aesthetic categories. Each palette contains thirty representative colors extracted from curated image sets.
 
-### 2. Build the Dashboard Environment
+### Embedding Visualizations
+t-SNE and color-space visualizations that map stylistic relationships between images.
 
-```bash
-docker build . -t aero
-```
+### Dashboard Interface
+A static HTML dashboard located at:
 
----
+dashboard/prototype/prototype.html
 
-### 3. Run the Environment (RStudio Only)
+This is the main entry point for exploring the palettes, embeddings, and drawn object categories.
 
-```bash
-docker run --rm     -e PASSWORD=mysecret     -p 8181:8181     -p 8787:8787     -v "$(pwd)":/home/rstudio/project     aero
-```
+## Repository Structure
 
-- RStudio: http://localhost:8787  
-  username: `rstudio`, password: `mysecret`
-
----
-
-### 4. Build Everything (Required Before Dashboard Works)
-
-Inside the RStudio terminal:
-
-```bash
-make all
-```
-
-This will:
-
-- Regenerate all color files  
-- Aggregate object metadata  
-- Build 3D color plots  
-- Build t-SNE embeddings  
-- Build random embedding plots  
-- And **finally run**:
-
-```
-./dashboard/run_dashboard.sh
-```
-
-### **The dashboard cannot be viewed until `make all` finishes.**
-
-After the pipeline completes, open:
-
-```
-http://localhost:8181/dashboard/prototype/prototype.html
-```
-
----
-
-# For Developers  
-## (Adding New Data, Using Vision/Vertex AI Tools, Extending the Pipeline)
-
-This section provides detailed instructions for adding images, generating objects, embeddings, and understanding the project workflow.
-
----
-
-## Required Directory Structure
-
-```
+index.html
+dashboard/
+    prototype/
+    drawn/
+    FA_embedding.html
+    color_plot_output.html
 images/
-    FA_<style>/
-        001.png
-        001colors.txt
-        001object.txt
-        object_instances.txt
-        vectors_object_instances.txt
-```
+colors/
+objects/
+models/
 
----
+All content is HTML, CSS, JS, and static assets. No backend or build pipeline is required.
 
-## Image Naming Rules
+## Local Use
 
-Each image must follow:
+To view the site offline:
 
-```
-<NUMBER>.png
-```
+1. Clone or download the repository.
+2. Open index.html in any modern browser.
+3. Navigate the dashboard from the automatic redirect or direct path:
 
-Example:
-
-```
-001.png
-002.png
-003.png
-```
-
-Generated files must use matching numbers:
-
-```
-001colors.txt
-001object.txt
-```
-
-If the numbering is not correct, the Makefile will stop with an error.
-
----
-
-## How Colors Are Generated
-
-Color files are **fully automatic**.
-
-Running:
-
-```bash
-make colors
-```
-
-will:
-
-- Delete old color files  
-- Extract dominant colors for every image (`<NUMBER>colors.txt`)  
-- Generate combined `colors.txt` summary  
-
-No manual editing is needed.
-
----
-
-## How Objects Are Generated (Google Vision API)
-
-Each PNG requires a corresponding:
-
-```
-<NUMBER>object.txt
-```
-
-These files are created using your existing script:
-
-```
-objects/FA_google_vision.py
-```
-
-This uses:
-
-- Your environment variable: `GOOGLE_VISION_API_KEY`  
-- Google Cloud Vision API: LABEL_DETECTION  
-
-Outputs look like:
-
-```
-Aquarium    0.912
-Fish        0.801
-...
-```
-
-Feel free to also create these <NUMBER>object.txt files manually as well
-
-(follow the formatting of the existing <NUMBER>object.txt files)
-
----
-
-## Combining Object Files
-
-Run:
-
-```bash
-Rscript objects/aggregate_FA_objects.R
-```
-
-This creates:
-
-```
-object_instances.txt
-```
-
-This aggregated file is required before embeddings can be generated.
-
----
-
-## Generating Embeddings (Google Vertex AI)
-
-Two scripts already exist:
-
-```
-objects/test_DORFic_vectors.py
-objects/all_non_DORFic_vectors.py
-```
-
-These scripts:
-
-- Read `object_instances.txt`
-- Call Vertex AI **text-embedding-005**
-- Produce:
-
-```
-vectors_object_instances.txt
-```
-
-Authentication uses:
-
-```
-gcloud auth print-access-token
-```
-
----
-
-## Adding New Images (Full Workflow)
-
-1. Place new images into:
-
-```
-images/FA_<style>/
-```
-
-Number them:
-
-```
-<NUMBER>.png
-```
-
-2. Run object detection:
-
-```bash
-python objects/FA_google_vision.py
-```
-
-3. Aggregate objects:
-
-```bash
-Rscript objects/aggregate_FA_objects.R
-```
-
-4. Generate embeddings:
-
-```bash
-python objects/all_non_DORFic_vectors.py
-```
-
-(or the DORFic version if applicable)
-
-5. Build dashboard + plots:
-
-```bash
-make all
-```
-
----
-
-## Makefile Targets
-
-```
-make all               # Full pipeline + dashboard
-make dashboard         # Same as all
-make colors            # Rebuild all color files
-make objects           # Aggregate object metadata
-make embeddings        # Build t-SNE embeddings
-make random-embeddings # Random embedding plot
-make colors-plot       # 3D color plot
-make clean             # Remove generated files
-make build             # Build Docker image
-make run               # Run environment
-make stop              # Stop running containers
-```
-
----
-
-This README provides a complete guide for both creatives and developers who want to explore or extend the bios611project.
+dashboard/prototype/prototype.html
