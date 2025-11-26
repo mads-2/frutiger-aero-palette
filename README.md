@@ -9,12 +9,7 @@ https://github.com/mads-2/bios611project
 
 ---
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/mads-2/bios611project
-cd bios611project
-```
+### 1. Clone the Repository and Enter this Local Directory
 
 ---
 
