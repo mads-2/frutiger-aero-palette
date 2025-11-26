@@ -88,14 +88,10 @@ body {
   box-shadow: var(--shadow);
   font-size: 0.95rem;
 }
+.learn-tab-btn:hover { background: var(--accent); transform: translateY(-2px); }
 
-/* Hover effects */
-.learn-tab-btn:hover,
-#compare-btn:hover,
-#embedding-btn:hover{
-  background: var(--accent);
-  transform: translateY(-2px);
-}
+#compare-btn:hover { background: var(--accent); transform: translateY(-2px); }
+#embedding-btn:hover { background: var(--accent); transform: translateY(-2px); }
 
 .shell {
   flex:1;
@@ -390,13 +386,15 @@ body {
 </div>
 
 <script>
+/* IMPORTANT: FIXED RELATIVE PATHS FOR GITHUB PAGES */
+
 const aestheticsConfig = {
-  "FA": { folder: "/images/FA_classic", csv: "FA_classic_summary.csv", full: "Frutiger Aero", count: 100, embed: "FA_embedding.html" },
-  "D":  { folder: "/images/FA_DORFic", csv: "FA_DORFic_summary.csv", full: "DORFic", count: 50, embed: "D_embedding.html" },
-  "FM": { folder: "/images/FA_Frutiger_Metro", csv: "FA_Frutiger_Metro_summary.csv", full: "Frutiger Metro", count: 65, embed: "FM_embedding.html" },
-  "FE": { folder: "/images/FA_Frutiger_Eco", csv: "FA_Frutiger_Eco_summary.csv", full: "Frutiger Eco", count: 59, embed: "FE_embedding.html" },
-  "T":  { folder: "/images/FA_Technozen", csv: "FA_Technozen_summary.csv", full: "Technozen", count: 49, embed: "T_embedding.html" },
-  "DA": { folder: "/images/FA_Dark_Aero", csv: "FA_Dark_Aero_summary.csv", full: "Dark Aero", count: 50, embed: "DA_embedding.html" }
+  "FA": { folder: "../../images/FA_classic",        csv: "FA_classic_summary.csv",        full: "Frutiger Aero",    count: 100, embed: "FA_embedding.html" },
+  "D":  { folder: "../../images/FA_DORFic",         csv: "FA_DORFic_summary.csv",         full: "DORFic",            count: 50,  embed: "D_embedding.html" },
+  "FM": { folder: "../../images/FA_Frutiger_Metro", csv: "FA_Frutiger_Metro_summary.csv", full: "Frutiger Metro",    count: 65,  embed: "FM_embedding.html" },
+  "FE": { folder: "../../images/FA_Frutiger_Eco",   csv: "FA_Frutiger_Eco_summary.csv",   full: "Frutiger Eco",     count: 59,  embed: "FE_embedding.html" },
+  "T":  { folder: "../../images/FA_Technozen",      csv: "FA_Technozen_summary.csv",      full: "Technozen",         count: 49,  embed: "T_embedding.html" },
+  "DA": { folder: "../../images/FA_Dark_Aero",      csv: "FA_Dark_Aero_summary.csv",      full: "Dark Aero",         count: 50,  embed: "DA_embedding.html" }
 };
 
 const titleEl = document.getElementById("title");
@@ -506,22 +504,18 @@ async function loadAestheticData(key) {
   return data;
 }
 
-/* --------------------------
-   Correct embedding button links
---------------------------- */
+/* EMBEDDING BUTTON FIXED FOR GITHUB PAGES */
 function updateEmbeddingButton(aestheticKey) {
   const cfg = aestheticsConfig[aestheticKey];
 
-  /* deterministic */
   if (cfg.embed) {
     embeddingBtn.style.display = "inline-flex";
     embeddingBtn.onclick = () => {
-      window.open(`/dashboard/${cfg.embed}`, "_blank");
+      window.open(`../${cfg.embed}`, "_blank");
     };
   } else {
     embeddingBtn.style.display = "none";
   }
-
 }
 
 /***************
@@ -538,11 +532,12 @@ function render(key, data) {
     .filter(c => c.name !== "TOTALS")
     .sort((a,b)=> b.instances - a.instances);
 
+  /* FIXED PATH: icon → ../drawn/ */
   objectGrid.innerHTML = data.classes.map(cls => `
     <div class="object-slot-wrapper" data-class="${cls.name}">
       <div class="object-slot">
-        <img src="/dashboard/drawn/${cls.name}.png"
-             onerror="this.src='/dashboard/drawn/Shape.png'">
+        <img src="../drawn/${cls.name}.png"
+             onerror="this.src='../drawn/Shape.png'">
       </div>
       <div class="class-label">
         ${cls.name.replace(/_/g, " ")}
@@ -619,7 +614,7 @@ document.querySelectorAll(".tab").forEach(tab => {
   COMPARE BUTTON
 ****************/
 document.getElementById("compare-btn").onclick = () =>
-  window.open("/dashboard/color_plot_output.html", "_blank");
+  window.open("../color_plot_output.html", "_blank");
 
 /****************
  INITIAL LOAD
