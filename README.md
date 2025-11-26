@@ -24,10 +24,10 @@ docker build . -t aero
 ### 3. Run the Environment (RStudio Only)
 
 ```bash
-docker run --rm     -e PASSWORD=mysecret     -p 8181:8181     -p 8997:8787     -v "$(pwd)":/home/rstudio/project     aero
+docker run --rm     -e PASSWORD=mysecret     -p 8181:8181     -p 8787:8787     -v "$(pwd)":/home/rstudio/project     aero
 ```
 
-- RStudio: http://localhost:8997  
+- RStudio: http://localhost:8787  
   username: `rstudio`, password: `mysecret`
 
 ---
