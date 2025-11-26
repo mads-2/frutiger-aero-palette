@@ -158,6 +158,10 @@ Fish        0.801
 ...
 ```
 
+Feel free to also create these <NUMBER>object.txt files manually as well
+
+(follow the formatting of the existing <NUMBER>object.txt files)
+
 ---
 
 ## Combining Object Files
@@ -175,10 +179,6 @@ object_instances.txt
 ```
 
 This aggregated file is required before embeddings can be generated.
-
-Feel free to also create these <NUMBER>object.txt files manually as well
-
-(follow the formatting of the existing <NUMBER>object.txt files)
 
 ---
 
